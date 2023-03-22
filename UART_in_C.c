@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <fcntl.h> //Thư viện này cho phép người dùng tạo ra các file, mở, đóng, xóa, đổi tên, sao chép file, cũng như xác định trạng thái file, quyền truy cập và các thuộc tính khác.
+#include <fcntl.h> //Thư viện này cho phép người dùng tạo ra các file, mở, đóng, xóa, đổi tên, 
+//sao chép file, cũng như xác định trạng thái file, quyền truy cập và các thuộc tính khác.
 
 #include <termios.h>
 #include <unistd.h>
@@ -10,13 +11,16 @@ int main() {
     // Mở kết nối UART
     uart0_filestream = open("/dev/ttyS0", O_RDWR | O_NOCTTY | O_NDELAY); //hàm open của thư viên fcntl.h
     /*
-    "/dev/ttyS0": đây là đường dẫn của thiết bị cần mở. Trong trường hợp này, đây là thiết bị serial port đầu tiên trên hệ thống Linux, có thể được sử dụng để truyền dữ liệu giữa máy tính và các thiết bị ngoại vi như Arduino hoặc Raspberry Pi.
+    "/dev/ttyS0": đây là đường dẫn của thiết bị cần mở. Trong trường hợp này, đây là thiết bị serial port đầu tiên trên hệ thống Linux, 
+    có thể được sử dụng để truyền dữ liệu giữa máy tính và các thiết bị ngoại vi như Arduino hoặc Raspberry Pi.
 
 O_RDWR: đây là một cờ để mở file ở chế độ đọc/ghi.
 
-O_NOCTTY: đây là một cờ để bỏ qua việc thiết lập thiết bị làm thiết bị điều khiển của tiến trình. Nó sẽ đảm bảo rằng thiết bị không bị "cố định" bởi tiến trình và cho phép truy cập trực tiếp vào thiết bị.
+O_NOCTTY: đây là một cờ để bỏ qua việc thiết lập thiết bị làm thiết bị điều khiển của tiến trình. 
+Nó sẽ đảm bảo rằng thiết bị không bị "cố định" bởi tiến trình và cho phép truy cập trực tiếp vào thiết bị.
 
-O_NDELAY: đây là một cờ để mở file ở chế độ không đợi tín hiệu (non-blocking mode), tức là nó sẽ trả về ngay lập tức mà không đợi cho đến khi có tín hiệu đầu vào được nhận từ thiết bị.
+O_NDELAY: đây là một cờ để mở file ở chế độ không đợi tín hiệu (non-blocking mode), 
+tức là nó sẽ trả về ngay lập tức mà không đợi cho đến khi có tín hiệu đầu vào được nhận từ thiết bị.
     */
     if (uart0_filestream == -1) {
         printf("Không thể mở kết nối UART.\n");
