@@ -1,0 +1,11 @@
+D:\Document\IOT\send_data\send_data\bin\Debug\send_data.exe.config
+D:\Document\IOT\send_data\send_data\bin\Debug\send_data.exe
+D:\Document\IOT\send_data\send_data\bin\Debug\send_data.pdb
+D:\Document\IOT\send_data\send_data\obj\Debug\send_data.csproj.AssemblyReference.cache
+D:\Document\IOT\send_data\send_data\obj\Debug\send_data.csproj.SuggestedBindingRedirects.cache
+D:\Document\IOT\send_data\send_data\obj\Debug\send_data.Form1.resources
+D:\Document\IOT\send_data\send_data\obj\Debug\send_data.Properties.Resources.resources
+D:\Document\IOT\send_data\send_data\obj\Debug\send_data.csproj.GenerateResource.cache
+D:\Document\IOT\send_data\send_data\obj\Debug\send_data.csproj.CoreCompileInputs.cache
+D:\Document\IOT\send_data\send_data\obj\Debug\send_data.exe
+D:\Document\IOT\send_data\send_data\obj\Debug\send_data.pdb

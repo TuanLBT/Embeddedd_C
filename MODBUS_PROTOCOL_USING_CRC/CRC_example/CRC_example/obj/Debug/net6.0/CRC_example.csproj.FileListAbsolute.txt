@@ -1,0 +1,15 @@
+D:\Document\IOT\CRC_example\CRC_example\bin\Debug\net6.0\CRC_example.exe
+D:\Document\IOT\CRC_example\CRC_example\bin\Debug\net6.0\CRC_example.deps.json
+D:\Document\IOT\CRC_example\CRC_example\bin\Debug\net6.0\CRC_example.runtimeconfig.json
+D:\Document\IOT\CRC_example\CRC_example\bin\Debug\net6.0\CRC_example.dll
+D:\Document\IOT\CRC_example\CRC_example\bin\Debug\net6.0\CRC_example.pdb
+D:\Document\IOT\CRC_example\CRC_example\obj\Debug\net6.0\CRC_example.csproj.AssemblyReference.cache
+D:\Document\IOT\CRC_example\CRC_example\obj\Debug\net6.0\CRC_example.GeneratedMSBuildEditorConfig.editorconfig
+D:\Document\IOT\CRC_example\CRC_example\obj\Debug\net6.0\CRC_example.AssemblyInfoInputs.cache
+D:\Document\IOT\CRC_example\CRC_example\obj\Debug\net6.0\CRC_example.AssemblyInfo.cs
+D:\Document\IOT\CRC_example\CRC_example\obj\Debug\net6.0\CRC_example.csproj.CoreCompileInputs.cache
+D:\Document\IOT\CRC_example\CRC_example\obj\Debug\net6.0\CRC_example.dll
+D:\Document\IOT\CRC_example\CRC_example\obj\Debug\net6.0\refint\CRC_example.dll
+D:\Document\IOT\CRC_example\CRC_example\obj\Debug\net6.0\CRC_example.pdb
+D:\Document\IOT\CRC_example\CRC_example\obj\Debug\net6.0\CRC_example.genruntimeconfig.cache
+D:\Document\IOT\CRC_example\CRC_example\obj\Debug\net6.0\ref\CRC_example.dll
