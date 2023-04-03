@@ -58,37 +58,76 @@ void display_number(uint32_t num){
 
 
 //hàm dịch nội dung trên module led 7 đoạn sang trái, phải.
-void shift_data(uint8_t data[], uint8_t datasize , uint8_t solandich)
+void shift_data(uint8_t data[], uint8_t datasize , uint8_t solandich, uint8_t dir)
 { 
-    //chay vo ben trai
-    for(j = 0; j<= solandich ;j++)
-    {
-        if(j==0)
+    switch(dir)
+    {   case 0:
+        //chay vo ben trai
+        for(j = 0; j<= solandich ;j++)
         {
-            for (int i=j; i<datasize ;i++)
+            if(j==0)
             {
-                send_data(i + 1 -j, data[datasize - 1 -i]);
+                for (int i=j; i<datasize ;i++)
+                {
+                    send_data(i + 1 -j, data[datasize - 1 -i]);
+                }
             }
+            if(j>0)
+            {   
+                
+                for (int i=j; i<datasize ;i++)
+                {
+                    send_data(i + 1 -j, data[datasize - 1 -i]);
+                }
+                send_data(9-j, 15); //15 la ki hieu rong (null)
+            }
+            delay(500);
         }
-        if(j>0)
+        //chayra tu ben trai
+        for(int k = 0; k<= solandich ;k++) //vong lap dich data
         {   
-            
-            for (int i=j; i<datasize ;i++)
+            for (int l = 0;l<k;l++)
             {
-                send_data(i + 1 -j, data[datasize - 1 -i]);
+                send_data(datasize-l, data[datasize - k +l]);
             }
-            send_data(9-j, 15); //15 la ki hieu rong (null)
+            delay(500);
         }
-        delay(500);
-    }
-    //chayra tu ben trai
-    for(int k = 0; k<= solandich ;k++) //vong lap dich data
-    {   
-        for (int l = 0;l<k;l++)
+        break;
+
+
+
+
+        case 1:
+        //dich sang ben phai
+        for(j=0;j<=solandich;j++)
         {
-            send_data(8-l, data[datasize - k +l]);
+            if(j==0)
+            {
+                for (int i=datasize; i>j ;i--)
+                {
+                    send_data(i, data[datasize-i+j]);
+                }
+            }
+            if(j>0)
+            {   
+                
+                for (int i=datasize; i>j ;i--)
+                {
+                    send_data(i, data[datasize-i+j]);
+                }
+                send_data(j, 15); //15 la ki hieu rong (null)
+            }
+            delay(1000);
         }
-        delay(500);
+        //dich lai tu benb phai qua (neu solandich = 8)
+        for(int m = 0; m< solandich ;m++) //vong lap dich data
+        {   
+            for (int n = 0;n<=m;n++)
+            {
+                send_data(n+1, data[m-n]);
+            }
+            delay(1000);
+        }
+        break;
     }
-    
 }
