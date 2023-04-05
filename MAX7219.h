@@ -1,7 +1,10 @@
-#include MAX7219.c
+// display float to 7Seg led
+void display_float(float num, uint8_t dec);
 
-//init function
-void Init(void);
+//****************************************************************7 segments led**********************************************************************
+
+//init 7 segments function
+void Init_7segments(void);
 
 //send data function
 void sendData(uint8_t address, uint8_t data);
@@ -14,3 +17,12 @@ void display_number(uint32_t num);
 
 //shift data on led to a direction
 void shift_data(uint8_t data[], uint8_t datasize , uint8_t solandich, uint8_t dir);
+
+
+//****************************************************************8x8 matrix**********************************************************************
+
+//init 8x8 matrix
+void Init_8x8matrix(void);
+
+//clear screen
+void clear_8x8(void);
