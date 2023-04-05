@@ -2,13 +2,39 @@
 #include <wiringPi.h>
 #include <stdio.h>
 #include <stdint.h>
-
+#include <math.h>
+#include "MAX7219.h"
 #define spi0   0
 uint8_t buf[2];
 
-//HAM INIT
+//display float fuction
+void display_float(float num, uint8_t dec){
+    int16_t integerPart = num;
+    int16_t fractionalPart = (num - integerPart) * pow(10,dec);
+    int16_t number = integerPart*pow(10,dec) + fractionalPart;
+    // count the number of digits
+    uint8_t count=1;
+    int16_t n = number;
+    while(n/10){
+        count++;
+        n = n/10;
+    }
+    // set scanlimit
+    sendData(0x0B, count-1);
+    // dislay number
+    for(int i=0; i<count;i++){
+        if(i==dec)
+            sendData(i+1,(number%10)|0x80); // turn on dot segment 
+        else
+            sendData(i+1,number%10);
+        number = number/10;
+    }
+}
 
-void Init(void){ 
+//****************************************************************7 segments led**********************************************************************
+//HAM INIT
+int j;
+void Init_7segments(void){ 
     // set decode mode: 0x09FF
     sendData(0x09,0xFF);
     // set intensity: 0x0A09
@@ -19,7 +45,6 @@ void Init(void){
     sendData(0x0C, 1);
     sendData(0x0F, 0);
 }
-
 
 //HAM GUI DATA
 
@@ -34,7 +59,7 @@ void sendData_SHOW(uint8_t data[], uint8_t datasize)
 {
     for (int i=0; i<datasize;i++)
     {
-        send_data(i+1, data[datasize - 1 -i]);
+        sendData(i+1, data[datasize - 1 -i]);
     }
 }
 
@@ -56,6 +81,9 @@ void display_number(uint32_t num){
     }
 }
 
+//ham hien thi led matrix
+
+
 
 //hàm dịch nội dung trên module led 7 đoạn sang trái, phải.
 void shift_data(uint8_t data[], uint8_t datasize , uint8_t solandich, uint8_t dir)
@@ -69,7 +97,7 @@ void shift_data(uint8_t data[], uint8_t datasize , uint8_t solandich, uint8_t di
             {
                 for (int i=j; i<datasize ;i++)
                 {
-                    send_data(i + 1 -j, data[datasize - 1 -i]);
+                    sendData(i + 1 -j, data[datasize - 1 -i]);
                 }
             }
             if(j>0)
@@ -77,9 +105,9 @@ void shift_data(uint8_t data[], uint8_t datasize , uint8_t solandich, uint8_t di
                 
                 for (int i=j; i<datasize ;i++)
                 {
-                    send_data(i + 1 -j, data[datasize - 1 -i]);
+                    sendData(i + 1 -j, data[datasize - 1 -i]);
                 }
-                send_data(9-j, 15); //15 la ki hieu rong (null)
+                sendData(9-j, 15); //15 la ki hieu rong (null)
             }
             delay(500);
         }
@@ -88,7 +116,7 @@ void shift_data(uint8_t data[], uint8_t datasize , uint8_t solandich, uint8_t di
         {   
             for (int l = 0;l<k;l++)
             {
-                send_data(datasize-l, data[datasize - k +l]);
+                sendData(datasize-l, data[datasize - k +l]);
             }
             delay(500);
         }
@@ -105,7 +133,7 @@ void shift_data(uint8_t data[], uint8_t datasize , uint8_t solandich, uint8_t di
             {
                 for (int i=datasize; i>j ;i--)
                 {
-                    send_data(i, data[datasize-i+j]);
+                    sendData(i, data[datasize-i+j]);
                 }
             }
             if(j>0)
@@ -113,9 +141,9 @@ void shift_data(uint8_t data[], uint8_t datasize , uint8_t solandich, uint8_t di
                 
                 for (int i=datasize; i>j ;i--)
                 {
-                    send_data(i, data[datasize-i+j]);
+                    sendData(i, data[datasize-i+j]);
                 }
-                send_data(j, 15); //15 la ki hieu rong (null)
+                sendData(j, 15); //15 la ki hieu rong (null)
             }
             delay(1000);
         }
@@ -124,10 +152,33 @@ void shift_data(uint8_t data[], uint8_t datasize , uint8_t solandich, uint8_t di
         {   
             for (int n = 0;n<=m;n++)
             {
-                send_data(n+1, data[m-n]);
+                sendData(n+1, data[m-n]);
             }
             delay(1000);
         }
         break;
+    }
+}
+
+
+//****************************************************************8x8 matrix**********************************************************************
+
+
+void Init_8x8matrix(void){ 
+    // set decode mode: 0x09FF
+    sendData(0x09,0x00);
+    // set intensity: 0x0A09
+    sendData(0x0A, 9);
+    // scan limit: 0x0B  
+    sendData(0x0B, 7);
+    // no shutdown, turn off display test
+    sendData(0x0C, 1);
+    sendData(0x0F, 0);
+}
+
+void clear_8x8(void)
+{
+    for(int i=0; i<8;i++){
+        sendData(i+1,0);
     }
 }
