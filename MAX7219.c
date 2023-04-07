@@ -7,7 +7,7 @@
 #define spi0   0
 uint8_t buf[2];
 
-//display float fuction
+//display float fuction (copy hàm của thầy)
 void display_float(float num, uint8_t dec){
     int16_t integerPart = num;
     int16_t fractionalPart = (num - integerPart) * pow(10,dec);
@@ -32,14 +32,14 @@ void display_float(float num, uint8_t dec){
 }
 
 //****************************************************************7 segments led**********************************************************************
-//HAM INIT
+//Init function (hàm khởi tạo led 7 đoạn)
 int j;
 void Init_7segments(void){ 
-    // set decode mode: 0x09FF
+    // set decode mode: 0x09 FF (địa chỉ thanh ghi là 0x09)
     sendData(0x09,0xFF);
-    // set intensity: 0x0A09
+    // set intensity: 0x0A 09
     sendData(0x0A, 9);
-    // scan limit: 0x0B  (07) Display digits 0 1 2 3 4 5 6 7 table 8.  Scan-Limit Register Format (Address (Hex) = XB)
+    // scan limit: 0x0B  hiển thị cùng lúc 8 ô led 7 đoạn table 8.  Scan-Limit Register Format (Address (Hex) = XB)
     sendData(0x0B, 7);
     // no shutdown, turn off display test
     sendData(0x0C, 1);
@@ -54,7 +54,7 @@ void sendData(uint8_t address, uint8_t data){
     wiringPiSPIDataRW(spi0, buf, 2);
 }
 
-//gui data va hienthi
+//gui 1 chuỗi data va hienthi lên led 
 void sendData_SHOW(uint8_t data[], uint8_t datasize)
 {
     for (int i=0; i<datasize;i++)
@@ -63,7 +63,7 @@ void sendData_SHOW(uint8_t data[], uint8_t datasize)
     }
 }
 
-//HAM HHIEN THI SO
+//Hàm hiển thị số (số nhiều hàng đơn vị)
 void display_number(uint32_t num){ 
     // count the number of digits
     uint8_t count=1;
@@ -163,7 +163,7 @@ void shift_data(uint8_t data[], uint8_t datasize , uint8_t solandich, uint8_t di
 
 //****************************************************************8x8 matrix**********************************************************************
 
-
+//Khởi tạo led ma trận 8x8 
 void Init_8x8matrix(void){ 
     // set decode mode: 0x09FF
     sendData(0x09,0x00);
@@ -176,6 +176,7 @@ void Init_8x8matrix(void){
     sendData(0x0F, 0);
 }
 
+//Hàm clear hết những gì có trên led 8x8
 void clear_8x8(void)
 {
     for(int i=0; i<8;i++){
