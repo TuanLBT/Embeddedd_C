@@ -24,7 +24,7 @@ void check_connect(int mpu)
 }
 
 
-//read value from resgister of sensor
+//read value from resgister of sensor (đọc giá trị của thanh ghi)
 int16_t readSensor(int mpu,uint8_t address){
     uint8_t high,low;
     int16_t value;
@@ -35,7 +35,8 @@ int16_t readSensor(int mpu,uint8_t address){
     
 }
 
-//read temperature
+//read temperature (đọc nhiệt độ của thanh ghi nhiệt độ)
+
 float temperature(int mpu) //numbers of digits display after demical dot
 {
     float temp; int16_t value;
