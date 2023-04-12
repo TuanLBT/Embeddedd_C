@@ -15,6 +15,9 @@ void sendData_SHOW(uint8_t data[], uint8_t datasize);
 //number display (run from 0-num)
 void display_number(uint32_t num);
 
+//display 2 number with 1 demical
+void display_2values(float alphaX, float alphaY);
+
 //shift data on led to a direction
 void shift_data(uint8_t data[], uint8_t datasize , uint8_t solandich, uint8_t dir);
 
@@ -26,3 +29,6 @@ void Init_8x8matrix(void);
 
 //clear screen
 void clear_8x8(void);
+
+//arrow of direction
+void arrow(int dir);
