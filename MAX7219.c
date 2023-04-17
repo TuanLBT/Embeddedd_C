@@ -3,7 +3,13 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <math.h>
+#include <stdint.h>
+#include <unistd.h>
+
+#include <time.h>  // time_t, struct tm, time, localtime 
+
 #include "MAX7219.h"
+
 #define spi0   0
 uint8_t buf[2];
 uint8_t arrow_right[8] = {0x3C,0x3C,0x3C,0x3C,0xFF,0x7E,0x3C,0x18};
@@ -193,6 +199,67 @@ void shift_data(uint8_t data[], uint8_t datasize , uint8_t solandich, uint8_t di
     }
 }
 
+void hienthucte_led7doan(int chedo) //chay duoc
+{
+    if(chedo == 0){
+    FILE *tempfile;
+    float temp;
+    tempfile = fopen("/sys/class/thermal/thermal_zone0/temp","r");
+    fscanf(tempfile, "%f",&temp);
+    temp = temp / 1000;
+    fclose(tempfile);
+
+    time_t rawtime;
+    struct tm *ct;
+
+    time (&rawtime);
+    ct = localtime (&rawtime);
+    // dd/mm/yyyy hh:mm:ss temp
+    //printf ("\r %02d/%02d/%04d %02d:%02d:%02d %.2f", ct->tm_mday,ct->tm_mon+1,ct->tm_year+1900,ct->tm_hour,ct->tm_min,ct->tm_sec, temp);
+    //printf("\r %d",ct->tm_sec);
+    //display_2values(ct->tm_min,ct->tm_sec);
+    //lay tung chu so
+    uint8_t phut = ct->tm_min;
+    uint8_t gio = ct->tm_hour;
+    uint8_t donvi_phut = phut%10;
+    uint8_t chuc_phut = phut/10;
+
+    uint8_t donvi_gio = gio%10;
+    uint8_t chuc_gio= gio/10;
+    sendData(1,digit[donvi_phut]);
+    sendData(2,digit[chuc_phut]);
+
+    sendData(3,0x17);
+
+    sendData(4,digit[donvi_gio]);
+    sendData(5,digit[chuc_gio]);
+
+    fflush(stdout);
+    sleep(1);
+    }
+    else
+    {
+        FILE *tempfile;
+        float temp;
+        tempfile = fopen("/sys/class/thermal/thermal_zone0/temp","r");
+        fscanf(tempfile, "%f",&temp);
+        temp = temp / 1000;
+        fclose(tempfile);
+
+        time_t rawtime;
+        struct tm *ct;
+
+        time (&rawtime);
+        ct = localtime (&rawtime);
+        uint8_t value = temp;
+        sendData(1,0x4E);
+        sendData(2,0x63);
+        sendData(3,digit[value%10]);
+        sendData(4,digit[value/10]);
+        sleep(1);
+    }
+}
+
 
 //****************************************************************8x8 matrix**********************************************************************
 
@@ -261,3 +328,7 @@ void arrow(int dir)
             break;
     }
 }
+// void hiengiothucte(void)
+// {
+
+// }
