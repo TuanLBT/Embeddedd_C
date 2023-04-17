@@ -1,0 +1,66 @@
+#include <stdio.h>
+#include <wiringPi.h>
+#include <wiringPiSPI.h>
+#include <wiringPiI2C.h>
+#include <stdio.h>
+#include <stdint.h>
+#include <math.h>
+#include <unistd.h>
+#include <time.h>  // time_t, struct tm, time, localtime 
+#include "MAX7219.h"
+#include <stdint.h>
+#define spio 0 
+uint8_t digit1[10] = {0X7E,0x30,0x6D,0x79,0x33,0x5B,0x5F,0x70,0x7F,0x7B};
+int gio, phut, on;
+void hienthucte_led7doan(int chedo);
+void nhapthoigian(int gio, int phut);
+int main(void){
+    //spi
+    wiringPiSPISetup(spio,10000000);
+    //init
+    Init_8x8matrix();
+    //clear screen
+    clear_8x8();
+
+    //nhap thoi gian tu ban phim
+    printf("Nhap thoi gian vao theo dinh dang (gio phut): ");
+    scanf("%d %d", &gio,&phut); 
+    nhapthoigian(gio,phut);
+
+    //the flag on
+    while(on)
+    {
+        hienthucte_led7doan(0);
+        for(int i=0;i<=9;i++)
+        {
+            sendData(0x0A,i);
+            delay(100);
+        }
+        for(int j =9;j>0;j--)
+        {
+            sendData(0x0A,j);
+            delay(100);
+        }
+    }
+    return 0;
+}
+void nhapthoigian(int gio, int phut)
+{
+    time_t rawtime;
+    struct tm *ct;
+    time (&rawtime);
+    ct = localtime (&rawtime);
+    fflush(stdout);
+    printf("\r Thoi gian da nhap: %d:%d\n", gio, phut);
+    while(on == 0)
+    {
+        //hienthucte_led7doan();
+        hienthucte_led7doan(0);
+        if((ct->tm_hour == gio) && (ct->tm_min == phut))
+        {
+            on = 1;
+        }
+    }
+}
+
+
