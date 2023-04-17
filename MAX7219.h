@@ -21,6 +21,10 @@ void display_2values(float alphaX, float alphaY);
 //shift data on led to a direction
 void shift_data(uint8_t data[], uint8_t datasize , uint8_t solandich, uint8_t dir);
 
+//display temp or time in realistic 
+void hienthucte_led7doan(int chedo); //1 or 0
+
+
 
 //****************************************************************8x8 matrix**********************************************************************
 
