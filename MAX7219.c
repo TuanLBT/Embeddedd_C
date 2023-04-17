@@ -328,7 +328,7 @@ void arrow(int dir)
             break;
     }
 }
-// void hiengiothucte(void)
+// void thugiothucte(void)
 // {
 
 // }
