@@ -1,0 +1,40 @@
+#INCLUDE <LCD4CHAN(CUATHAY).C> //FILE NAY CHAY ADC DO PHAN GIAI 8 BIT
+UNSIGNED INT16 KQADC1, KQADC2;
+VOID ADC_1()
+{  
+   LCD_Gotoxy(0,0);
+   LCD_PutChar(KQADC1/1000 +0X30);//HANGNGAN
+   LCD_PutChar((KQADC1/100)%10 +0X30);//HANGTRAM
+   LCD_PutChar((KQADC1/10)%10 + 0X30);//HANGCHUC
+   LCD_PutChar(KQADC1%10 +0X30);//DONVI
+}
+VOID ADC_2()
+{
+   KQADC2 = (FLOAT)((KQADC1)*(5.00/1023.00))*1000.0; //5.00/1023.00
+   LCD_Gotoxy(1,3);
+   LCD_PutChar((KQADC2/1000)%10 + 0X30);//DONVI
+   LCD_PutChar(".");//CHAMTHAPPHAN
+   LCD_PutChar((KQADC2%1000)/100 +0X30);
+   LCD_PutChar(((KQADC2%1000)/10)%10 +0X30);
+   LCD_PutChar("V");
+
+}
+
+VOID MAIN()
+{
+   SET_TRIS_A(0XFF);
+   SET_TRIS_D(0x00); 
+   LCD_Init();
+   delay_ms(10); 
+   SETUP_ADC(ADC_CLOCK_DIV_8);
+   SETUP_ADC_PORTS(SAN0);
+   SET_ADC_CHANNEL(0);
+   WHILE(TRUE)
+   {
+      KQADC1 = 0; KQADC2= 0;
+      KQADC1=READ_ADC();
+      DELAY_MS(100);
+      ADC_1();
+      ADC_2();
+   }
+}
