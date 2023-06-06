@@ -1,3 +1,6 @@
+//init mpu 
+void iniMpu(void);
+
 
 //check I2C connection
 void check_connect(int mpu);
