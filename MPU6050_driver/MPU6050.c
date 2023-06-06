@@ -8,6 +8,21 @@
 uint8_t who;
 
 
+void iniMpu(void){
+    //sample rate 100 Hz
+    wiringPiI2CWriteReg8(mpu,0x19,9);
+    //DLPF: fc = 44 Hz
+    wiringPiI2CWriteReg8(mpu,0x1A,0x03);
+    //GyRO Configuration: +-500
+    wiringPiI2CWriteReg8(mpu,0x1B,0x08);
+    // Acc Configuration: +-8g
+    wiringPiI2CWriteReg8(mpu,0x1C,0x10);
+    // Interrupt: enable data ready interrupt
+    wiringPiI2CWriteReg8(mpu,0x38,1);
+    // power managment
+    wiringPiI2CWriteReg8(mpu,0x6B,0x01);
+}
+
 //check I2C connection
 void check_connect(int mpu)
 {
