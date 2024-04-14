@@ -1,0 +1,4 @@
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/tf2_sensor_msgs/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/tf2_sensor_msgs.pc
+Symlinking /home/pi/do_an_ws/devel/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig.cmake

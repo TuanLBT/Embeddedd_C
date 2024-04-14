@@ -1,0 +1,7 @@
+set(qt_gui_SETUP_PY_SETUP_MODULE "distutils.core")
+set(qt_gui_SETUP_PY_VERSION "0.3.18")
+set(qt_gui_SETUP_PY_SCRIPTS "")
+set(qt_gui_SETUP_PY_PACKAGES "qt_gui")
+set(qt_gui_SETUP_PY_PACKAGE_DIRS "src/qt_gui")
+set(qt_gui_SETUP_PY_MODULES "")
+set(qt_gui_SETUP_PY_MODULE_DIRS "")

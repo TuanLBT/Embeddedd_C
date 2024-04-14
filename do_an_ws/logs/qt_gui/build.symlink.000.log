@@ -1,0 +1,4 @@
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/qt_gui/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/qt_gui.pc
+Symlinking /home/pi/do_an_ws/devel/share/qt_gui/cmake/qt_guiConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/qt_gui/cmake/qt_guiConfig-version.cmake

@@ -1,0 +1,4 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libeigen_conversions.so
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/eigen_conversions.pc
+Symlinking /home/pi/do_an_ws/devel/share/eigen_conversions/cmake/eigen_conversionsConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/eigen_conversions/cmake/eigen_conversionsConfig-version.cmake

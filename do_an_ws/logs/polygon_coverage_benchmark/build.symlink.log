@@ -1,0 +1,6 @@
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/polygon_coverage_benchmark/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/polygon_coverage_benchmark.pc
+Symlinking /home/pi/do_an_ws/devel/share/polygon_coverage_benchmark/cmake/polygon_coverage_benchmarkConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/polygon_coverage_benchmark/cmake/polygon_coverage_benchmarkConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/bin/cmake.lock
+Symlinking /home/pi/do_an_ws/devel/bin/plot_results

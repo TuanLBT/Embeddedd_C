@@ -1,0 +1,85 @@
+In file included from [01m[K/usr/include/c++/8/vector:69[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/include/polygon_coverage_ros/ros_interface.h:24[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/src/ros_interface.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const geometry_msgs::Point_<std::allocator<void> >&}; _Tp = geometry_msgs::Point_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::Point_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > >::iterator[m[K' {aka '[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > > >[m[K'} changed in GCC 7.1
+       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const visualization_msgs::Marker_<std::allocator<void> >&}; _Tp = visualization_msgs::Marker_<std::allocator<void> >; _Alloc = std::allocator<visualization_msgs::Marker_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > >::iterator[m[K' {aka '[01m[K__gnu_cxx::__normal_iterator<visualization_msgs::Marker_<std::allocator<void> >*, std::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > > >[m[K'} changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/8/vector:64[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/include/polygon_coverage_ros/ros_interface.h:24[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/src/ros_interface.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In function '[01m[Kvoid polygon_coverage_planning::createMarkers(const std::vector<CGAL::Point_2<CGAL::Epeck>, std::allocator<CGAL::Point_2<CGAL::Epeck> > >&, double, const string&, const string&, const polygon_coverage_planning::Color&, const polygon_coverage_planning::Color&, double, double, visualization_msgs::Marker*, visualization_msgs::Marker*)[m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In function '[01m[Kvoid polygon_coverage_planning::createTriangles(const std::vector<std::vector<CGAL::Point_2<CGAL::Epeck>, std::allocator<CGAL::Point_2<CGAL::Epeck> > > >&, const string&, const string&, const polygon_coverage_planning::Color&, double, visualization_msgs::Marker*)[m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In function '[01m[Kvoid polygon_coverage_planning::createPolygonMarkers(const PolygonWithHoles&, double, const string&, const string&, const polygon_coverage_planning::Color&, const polygon_coverage_planning::Color&, double, double, visualization_msgs::MarkerArray*)[m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<visualization_msgs::Marker_<std::allocator<void> >*, std::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<visualization_msgs::Marker_<std::allocator<void> >*, std::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<visualization_msgs::Marker_<std::allocator<void> >*, std::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:69[m[K,
+                 from [01m[K/usr/include/c++/8/functional:62[m[K,
+                 from [01m[K/usr/include/CGAL/number_type_basic.h:36[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:45[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/test/sweep_test_node.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const visualization_msgs::Marker_<std::allocator<void> >&}; _Tp = visualization_msgs::Marker_<std::allocator<void> >; _Alloc = std::allocator<visualization_msgs::Marker_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > >::iterator[m[K' {aka '[01m[K__gnu_cxx::__normal_iterator<visualization_msgs::Marker_<std::allocator<void> >*, std::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > > >[m[K'} changed in GCC 7.1
+       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:64[m[K,
+                 from [01m[K/usr/include/c++/8/functional:62[m[K,
+                 from [01m[K/usr/include/CGAL/number_type_basic.h:36[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:45[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/test/sweep_test_node.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = visualization_msgs::Marker_<std::allocator<void> >; _Alloc = std::allocator<visualization_msgs::Marker_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<visualization_msgs::Marker_<std::allocator<void> >*, std::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:69[m[K,
+                 from [01m[K/usr/include/c++/8/functional:62[m[K,
+                 from [01m[K/usr/include/CGAL/number_type_basic.h:36[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:45[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/test/sweep_test_node.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const geometry_msgs::Point_<std::allocator<void> >&}; _Tp = geometry_msgs::Point_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::Point_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > >::iterator[m[K' {aka '[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > > >[m[K'} changed in GCC 7.1
+       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:64[m[K,
+                 from [01m[K/usr/include/c++/8/functional:62[m[K,
+                 from [01m[K/usr/include/CGAL/number_type_basic.h:36[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:45[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/test/sweep_test_node.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = geometry_msgs::Point_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::Point_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K

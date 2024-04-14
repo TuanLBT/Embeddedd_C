@@ -1,0 +1,11 @@
+# CMake generated Testfile for 
+# Source directory: /home/pi/do_an_ws/src/urdf/urdf
+# Build directory: /home/pi/do_an_ws/build/urdf
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_urdf_rostest_test_test_robot_model_parser.launch "/home/pi/do_an_ws/build/urdf/catkin_generated/env_cached.sh" "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/home/pi/do_an_ws/build/urdf/test_results/urdf/rostest-test_test_robot_model_parser.xml" "--return-code" "/usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/pi/do_an_ws/src/urdf/urdf --package=urdf --results-filename test_test_robot_model_parser.xml --results-base-dir \"/home/pi/do_an_ws/build/urdf/test_results\" /home/pi/do_an_ws/src/urdf/urdf/test/test_robot_model_parser.launch ")
+set_tests_properties(_ctest_urdf_rostest_test_test_robot_model_parser.launch PROPERTIES  _BACKTRACE_TRIPLES "/opt/ros/noetic/share/catkin/cmake/test/tests.cmake;160;add_test;/opt/ros/noetic/share/rostest/cmake/rostest-extras.cmake;52;catkin_run_tests_target;/opt/ros/noetic/share/rostest/cmake/rostest-extras.cmake;80;add_rostest;/opt/ros/noetic/share/rostest/cmake/rostest-extras.cmake;100;_add_rostest_google_test;/home/pi/do_an_ws/src/urdf/urdf/CMakeLists.txt;58;add_rostest_gtest;/home/pi/do_an_ws/src/urdf/urdf/CMakeLists.txt;0;")
+add_test(_ctest_urdf_gtest_urdfdom_compatibility_test "/home/pi/do_an_ws/build/urdf/catkin_generated/env_cached.sh" "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/home/pi/do_an_ws/build/urdf/test_results/urdf/gtest-urdfdom_compatibility_test.xml" "--return-code" "/home/pi/do_an_ws/devel/.private/urdf/lib/urdf/urdfdom_compatibility_test --gtest_output=xml:/home/pi/do_an_ws/build/urdf/test_results/urdf/gtest-urdfdom_compatibility_test.xml")
+set_tests_properties(_ctest_urdf_gtest_urdfdom_compatibility_test PROPERTIES  _BACKTRACE_TRIPLES "/opt/ros/noetic/share/catkin/cmake/test/tests.cmake;160;add_test;/opt/ros/noetic/share/catkin/cmake/test/gtest.cmake;98;catkin_run_tests_target;/opt/ros/noetic/share/catkin/cmake/test/gtest.cmake;37;_catkin_add_google_test;/home/pi/do_an_ws/src/urdf/urdf/CMakeLists.txt;61;catkin_add_gtest;/home/pi/do_an_ws/src/urdf/urdf/CMakeLists.txt;0;")
+subdirs("gtest")

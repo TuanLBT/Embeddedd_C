@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./devel/lib/python3/dist-packages",
+        "./src/geometry/tf/src",
+        "./src/mybot/scripts"
+    ]
+}

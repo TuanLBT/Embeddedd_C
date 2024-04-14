@@ -1,0 +1,216 @@
+[  4%] [32mBuilding CXX object CMakeFiles/polygon_coverage_ros.dir/src/coverage_planner.cc.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/polygon_coverage_ros.dir/src/polygon_planner_base.cc.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/polygon_coverage_ros.dir/src/ros_interface.cc.o[0m
+In file included from [01m[K/usr/include/c++/8/vector:69[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/include/polygon_coverage_ros/ros_interface.h:24[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/src/ros_interface.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const geometry_msgs::Point_<std::allocator<void> >&}; _Tp = geometry_msgs::Point_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::Point_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > >::iterator[m[K' {aka '[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > > >[m[K'} changed in GCC 7.1
+       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const visualization_msgs::Marker_<std::allocator<void> >&}; _Tp = visualization_msgs::Marker_<std::allocator<void> >; _Alloc = std::allocator<visualization_msgs::Marker_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > >::iterator[m[K' {aka '[01m[K__gnu_cxx::__normal_iterator<visualization_msgs::Marker_<std::allocator<void> >*, std::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > > >[m[K'} changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/8/vector:64[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/include/polygon_coverage_ros/ros_interface.h:24[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/src/ros_interface.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In function '[01m[Kvoid polygon_coverage_planning::createMarkers(const std::vector<CGAL::Point_2<CGAL::Epeck>, std::allocator<CGAL::Point_2<CGAL::Epeck> > >&, double, const string&, const string&, const polygon_coverage_planning::Color&, const polygon_coverage_planning::Color&, double, double, visualization_msgs::Marker*, visualization_msgs::Marker*)[m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In function '[01m[Kvoid polygon_coverage_planning::createTriangles(const std::vector<std::vector<CGAL::Point_2<CGAL::Epeck>, std::allocator<CGAL::Point_2<CGAL::Epeck> > > >&, const string&, const string&, const polygon_coverage_planning::Color&, double, visualization_msgs::Marker*)[m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In function '[01m[Kvoid polygon_coverage_planning::createPolygonMarkers(const PolygonWithHoles&, double, const string&, const string&, const polygon_coverage_planning::Color&, const polygon_coverage_planning::Color&, double, double, visualization_msgs::MarkerArray*)[m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<visualization_msgs::Marker_<std::allocator<void> >*, std::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<visualization_msgs::Marker_<std::allocator<void> >*, std::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<visualization_msgs::Marker_<std::allocator<void> >*, std::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[ 17%] [32mBuilding CXX object CMakeFiles/polygon_coverage_ros.dir/src/shortest_path_planner.cc.o[0m
+[ 21%] [32m[1mLinking CXX shared library /home/pi/do_an_ws/devel/.private/polygon_coverage_ros/lib/libpolygon_coverage_ros.so[0m
+[ 21%] Built target polygon_coverage_ros
+[35m[1mScanning dependencies of target pwh_instances[0m
+[ 26%] [34m[1mCreating directories for 'pwh_instances'[0m
+[ 30%] [34m[1mPerforming download step (download, verify and extract) for 'pwh_instances'[0m
+-- Downloading...
+   dst='/home/pi/do_an_ws/build/polygon_coverage_ros/pwh_instances-prefix/src/pwh.tar.gz'
+   timeout='none'
+-- Using src='https://polybox.ethz.ch/index.php/s/7J5HPRR6lM22TnK/download'
+-- [download 1% complete]
+-- [download 2% complete]
+-- [download 3% complete]
+-- [download 4% complete]
+-- [download 5% complete]
+-- [download 6% complete]
+-- [download 7% complete]
+-- [download 8% complete]
+-- [download 10% complete]
+-- [download 11% complete]
+-- [download 12% complete]
+-- [download 13% complete]
+-- [download 15% complete]
+-- [download 16% complete]
+-- [download 17% complete]
+-- [download 18% complete]
+-- [download 20% complete]
+-- [download 21% complete]
+-- [download 22% complete]
+-- [download 23% complete]
+-- [download 25% complete]
+-- [download 26% complete]
+-- [download 27% complete]
+-- [download 29% complete]
+-- [download 30% complete]
+-- [download 31% complete]
+-- [download 32% complete]
+-- [download 34% complete]
+-- [download 35% complete]
+-- [download 36% complete]
+-- [download 37% complete]
+-- [download 39% complete]
+-- [download 40% complete]
+-- [download 41% complete]
+-- [download 43% complete]
+-- [download 44% complete]
+-- [download 45% complete]
+-- [download 46% complete]
+-- [download 48% complete]
+-- [download 49% complete]
+-- [download 50% complete]
+-- [download 51% complete]
+-- [download 53% complete]
+-- [download 54% complete]
+-- [download 55% complete]
+-- [download 56% complete]
+-- [download 58% complete]
+-- [download 59% complete]
+-- [download 60% complete]
+-- [download 62% complete]
+-- [download 63% complete]
+-- [download 64% complete]
+-- [download 65% complete]
+-- [download 67% complete]
+-- [download 68% complete]
+-- [download 69% complete]
+-- [download 70% complete]
+-- [download 72% complete]
+-- [download 73% complete]
+-- [download 74% complete]
+-- [download 75% complete]
+-- [download 77% complete]
+-- [download 78% complete]
+-- [download 79% complete]
+-- [download 81% complete]
+-- [download 82% complete]
+-- [download 83% complete]
+-- [download 84% complete]
+-- [download 86% complete]
+-- [download 87% complete]
+-- [download 88% complete]
+-- [download 89% complete]
+-- [download 91% complete]
+-- [download 92% complete]
+-- [download 93% complete]
+-- [download 95% complete]
+-- [download 96% complete]
+-- [download 97% complete]
+-- [download 98% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/home/pi/do_an_ws/build/polygon_coverage_ros/pwh_instances-prefix/src/pwh.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/pi/do_an_ws/build/polygon_coverage_ros/pwh_instances-prefix/src/pwh.tar.gz'
+     dst='/home/pi/do_an_ws/build/polygon_coverage_ros/pwh_instances-prefix/src/pwh_instances'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 34%] [34m[1mNo patch step for 'pwh_instances'[0m
+[ 39%] [34m[1mNo update step for 'pwh_instances'[0m
+[ 43%] [34m[1mNo configure step for 'pwh_instances'[0m
+[ 47%] [34m[1mNo build step for 'pwh_instances'[0m
+[ 52%] [34m[1mNo install step for 'pwh_instances'[0m
+[ 56%] [34m[1mCompleted 'pwh_instances'[0m
+[ 56%] Built target pwh_instances
+[35m[1mScanning dependencies of target coverage_planner_exact_preprocessed[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/coverage_planner_exact_preprocessed.dir/src/coverage_planner_exact_preprocessed_node.cc.o[0m
+[ 65%] [32m[1mLinking CXX executable /home/pi/do_an_ws/devel/.private/polygon_coverage_ros/lib/polygon_coverage_ros/coverage_planner_exact_preprocessed[0m
+[ 65%] Built target coverage_planner_exact_preprocessed
+[35m[1mScanning dependencies of target shortest_path_planner[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/shortest_path_planner.dir/src/shortest_path_planner_node.cc.o[0m
+[ 73%] [32m[1mLinking CXX executable /home/pi/do_an_ws/devel/.private/polygon_coverage_ros/lib/polygon_coverage_ros/shortest_path_planner[0m
+[ 73%] Built target shortest_path_planner
+[35m[1mScanning dependencies of target sweep_test[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/sweep_test.dir/test/sweep_test_node.cc.o[0m
+In file included from [01m[K/usr/include/c++/8/vector:69[m[K,
+                 from [01m[K/usr/include/c++/8/functional:62[m[K,
+                 from [01m[K/usr/include/CGAL/number_type_basic.h:36[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:45[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/test/sweep_test_node.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const visualization_msgs::Marker_<std::allocator<void> >&}; _Tp = visualization_msgs::Marker_<std::allocator<void> >; _Alloc = std::allocator<visualization_msgs::Marker_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > >::iterator[m[K' {aka '[01m[K__gnu_cxx::__normal_iterator<visualization_msgs::Marker_<std::allocator<void> >*, std::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > > >[m[K'} changed in GCC 7.1
+       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:64[m[K,
+                 from [01m[K/usr/include/c++/8/functional:62[m[K,
+                 from [01m[K/usr/include/CGAL/number_type_basic.h:36[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:45[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/test/sweep_test_node.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = visualization_msgs::Marker_<std::allocator<void> >; _Alloc = std::allocator<visualization_msgs::Marker_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<visualization_msgs::Marker_<std::allocator<void> >*, std::vector<visualization_msgs::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::Marker_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:69[m[K,
+                 from [01m[K/usr/include/c++/8/functional:62[m[K,
+                 from [01m[K/usr/include/CGAL/number_type_basic.h:36[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:45[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/test/sweep_test_node.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const geometry_msgs::Point_<std::allocator<void> >&}; _Tp = geometry_msgs::Point_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::Point_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > >::iterator[m[K' {aka '[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > > >[m[K'} changed in GCC 7.1
+       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:64[m[K,
+                 from [01m[K/usr/include/c++/8/functional:62[m[K,
+                 from [01m[K/usr/include/CGAL/number_type_basic.h:36[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:45[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_ros/test/sweep_test_node.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = geometry_msgs::Point_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::Point_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<geometry_msgs::Point_<std::allocator<void> >*, std::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[ 82%] [32m[1mLinking CXX executable /home/pi/do_an_ws/devel/.private/polygon_coverage_ros/lib/polygon_coverage_ros/sweep_test[0m
+[ 82%] Built target sweep_test
+[35m[1mScanning dependencies of target coverage_planner_exact[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/coverage_planner_exact.dir/src/coverage_planner_exact_node.cc.o[0m
+[ 91%] [32m[1mLinking CXX executable /home/pi/do_an_ws/devel/.private/polygon_coverage_ros/lib/polygon_coverage_ros/coverage_planner_exact[0m
+[ 91%] Built target coverage_planner_exact
+[35m[1mScanning dependencies of target coverage_planner[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/coverage_planner.dir/src/coverage_planner_node.cc.o[0m
+[100%] [32m[1mLinking CXX executable /home/pi/do_an_ws/devel/.private/polygon_coverage_ros/lib/polygon_coverage_ros/coverage_planner[0m
+[100%] Built target coverage_planner

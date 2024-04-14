@@ -1,0 +1,11 @@
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/diagnostic_common_diagnostics/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/diagnostic_common_diagnostics.pc
+Symlinking /home/pi/do_an_ws/devel/lib/diagnostic_common_diagnostics/ram_monitor.py
+Symlinking /home/pi/do_an_ws/devel/lib/diagnostic_common_diagnostics/cmake.lock
+Symlinking /home/pi/do_an_ws/devel/lib/diagnostic_common_diagnostics/tf_monitor.py
+Symlinking /home/pi/do_an_ws/devel/lib/diagnostic_common_diagnostics/hd_monitor.py
+Symlinking /home/pi/do_an_ws/devel/lib/diagnostic_common_diagnostics/sensors_monitor.py
+Symlinking /home/pi/do_an_ws/devel/lib/diagnostic_common_diagnostics/ntp_monitor.py
+Symlinking /home/pi/do_an_ws/devel/lib/diagnostic_common_diagnostics/cpu_monitor.py
+Symlinking /home/pi/do_an_ws/devel/share/diagnostic_common_diagnostics/cmake/diagnostic_common_diagnosticsConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/diagnostic_common_diagnostics/cmake/diagnostic_common_diagnosticsConfig-version.cmake

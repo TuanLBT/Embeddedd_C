@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/polled_camera/lib/python3/dist-packages/polled_camera/srv/_GetPolledImage.py

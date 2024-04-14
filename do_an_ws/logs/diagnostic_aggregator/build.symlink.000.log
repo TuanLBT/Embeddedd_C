@@ -1,0 +1,8 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libdiagnostic_aggregator.so
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/diagnostic_aggregator.pc
+Symlinking /home/pi/do_an_ws/devel/lib/diagnostic_aggregator/cmake.lock
+Symlinking /home/pi/do_an_ws/devel/lib/diagnostic_aggregator/analyzer_loader
+Symlinking /home/pi/do_an_ws/devel/lib/diagnostic_aggregator/aggregator_node
+Symlinking /home/pi/do_an_ws/devel/lib/diagnostic_aggregator/add_analyzers
+Symlinking /home/pi/do_an_ws/devel/share/diagnostic_aggregator/cmake/diagnostic_aggregatorConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/diagnostic_aggregator/cmake/diagnostic_aggregatorConfig-version.cmake

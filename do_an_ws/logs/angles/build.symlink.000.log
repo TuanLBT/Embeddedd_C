@@ -1,0 +1,4 @@
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/angles/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/angles.pc
+Symlinking /home/pi/do_an_ws/devel/share/angles/cmake/anglesConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/angles/cmake/anglesConfig-version.cmake

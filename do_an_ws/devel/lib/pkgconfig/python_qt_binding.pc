@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/python_qt_binding/lib/pkgconfig/python_qt_binding.pc

@@ -1,0 +1,5 @@
+mybot
+/home/pi/do_an_ws/devel/.private/mybot/cmake.lock /home/pi/do_an_ws/devel/./cmake.lock
+/home/pi/do_an_ws/devel/.private/mybot/lib/pkgconfig/mybot.pc /home/pi/do_an_ws/devel/lib/pkgconfig/mybot.pc
+/home/pi/do_an_ws/devel/.private/mybot/share/mybot/cmake/mybotConfig.cmake /home/pi/do_an_ws/devel/share/mybot/cmake/mybotConfig.cmake
+/home/pi/do_an_ws/devel/.private/mybot/share/mybot/cmake/mybotConfig-version.cmake /home/pi/do_an_ws/devel/share/mybot/cmake/mybotConfig-version.cmake

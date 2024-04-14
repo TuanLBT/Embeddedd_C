@@ -1,0 +1,4 @@
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/bondpy/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/bondpy.pc
+Symlinking /home/pi/do_an_ws/devel/share/bondpy/cmake/bondpyConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/bondpy/cmake/bondpyConfig.cmake

@@ -1,0 +1,44 @@
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target _gps_generate_messages_check_deps_Gps
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target _catkin_empty_exported_target
+[ 22%] Built target gps_generate_messages_py
+[ 33%] Built target gps_generate_messages_lisp
+[ 44%] Built target gps_generate_messages_cpp
+[ 66%] Built target gps_generate_messages_eus
+[35m[1mScanning dependencies of target gps[0m
+[ 77%] Built target gps_generate_messages_nodejs
+[ 88%] [32mBuilding CXX object CMakeFiles/gps.dir/src/gps_node.cpp.o[0m
+[ 88%] Built target gps_generate_messages
+[01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:227:5:[m[K [01;31m[Kerror: [m[Kunterminated comment
+     [01;31m[K/[m[K*
+     [01;31m[K^[m[K
+[01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:226:2:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K}[m[K' at end of input
+  [01;31m[K}[m[K
+  [01;31m[K^[m[K
+[01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:157:3:[m[K [01;36m[Knote: [m[Kto match this '[01m[K{[m[K'
+   [01;36m[K{[m[K
+   [01;36m[K^[m[K
+[01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:226:2:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K}[m[K' at end of input
+  [01;31m[K}[m[K
+  [01;31m[K^[m[K
+[01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:116:1:[m[K [01;36m[Knote: [m[Kto match this '[01m[K{[m[K'
+ [01;36m[K{[m[K
+ [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/gps.dir/build.make:63: CMakeFiles/gps.dir/src/gps_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1085: CMakeFiles/gps.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

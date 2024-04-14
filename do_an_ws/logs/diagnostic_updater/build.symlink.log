@@ -1,0 +1,6 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libdiagnostic_updater.so
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/diagnostic_updater/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/diagnostic_updater/example
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/diagnostic_updater.pc
+Symlinking /home/pi/do_an_ws/devel/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake

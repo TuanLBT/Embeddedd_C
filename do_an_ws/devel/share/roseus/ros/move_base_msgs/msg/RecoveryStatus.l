@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/move_base_msgs/share/roseus/ros/move_base_msgs/msg/RecoveryStatus.l

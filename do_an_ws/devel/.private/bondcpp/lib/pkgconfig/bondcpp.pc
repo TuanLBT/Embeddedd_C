@@ -1,0 +1,8 @@
+prefix=/home/pi/do_an_ws/devel/.private/bondcpp
+
+Name: bondcpp
+Description: Description of bondcpp
+Version: 1.8.6
+Cflags: -I/home/pi/do_an_ws/src/bond_core/bondcpp/include -I/usr/include
+Libs: -L${prefix}/lib -lbondcpp /usr/lib/arm-linux-gnueabihf/libboost_date_time.so /usr/lib/arm-linux-gnueabihf/libboost_thread.so -lpthread /usr/lib/arm-linux-gnueabihf/libboost_chrono.so /usr/lib/arm-linux-gnueabihf/libboost_system.so /usr/lib/arm-linux-gnueabihf/libboost_atomic.so /usr/lib/arm-linux-gnueabihf/libuuid.so
+Requires: bond roscpp smclib

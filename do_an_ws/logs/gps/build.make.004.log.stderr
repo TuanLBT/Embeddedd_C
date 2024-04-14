@@ -1,0 +1,151 @@
+In file included from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:17[m[K:
+[01m[K/usr/include/boost/bind/bind_cc.hpp:[m[K In function '[01m[Kboost::_bi::bind_t<R, R (*)(B1), typename boost::_bi::list_av_1<A1>::type> boost::bind(R (*)(B1), A1) [with R = ros::SerializedMessage; B1 = const gps::Gps_<std::allocator<void> >&; A1 = boost::reference_wrapper<const gps::Gps_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/boost/bind/bind_cc.hpp:26:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kboost::reference_wrapper<const gps::Gps_<std::allocator<void> > >[m[K' changed in GCC 7.1
+     [01;36m[KBOOST_BIND[m[K(BOOST_BIND_ST R (BOOST_BIND_CC *f) (B1) BOOST_BIND_NOEXCEPT, A1 a1)
+     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/bind/bind.hpp:2127[m[K,
+                 from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:17[m[K:
+[01m[K/usr/include/boost/bind/bind_cc.hpp:30:58:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kboost::reference_wrapper<const gps::Gps_<std::allocator<void> > >[m[K' changed in GCC 7.1
+     return _bi::bind_t<R, F, list_type> (f, list_type(a1)[01;36m[K)[m[K;
+                                                          [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:17[m[K:
+[01m[K/usr/include/boost/bind/bind_cc.hpp:[m[K In function '[01m[Kboost::_bi::bind_t<R, R (*)(B1), typename boost::_bi::list_av_1<A1>::type> boost::bind(R (*)(B1), A1) [with R = ros::SerializedMessage; B1 = const gps::Gps_<std::allocator<void> >&; A1 = boost::reference_wrapper<const gps::Gps_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/boost/bind/bind_cc.hpp:26:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kboost::reference_wrapper<const gps::Gps_<std::allocator<void> > >[m[K' changed in GCC 7.1
+     [01;36m[KBOOST_BIND[m[K(BOOST_BIND_ST R (BOOST_BIND_CC *f) (B1) BOOST_BIND_NOEXCEPT, A1 a1)
+     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/bind/bind.hpp:2127[m[K,
+                 from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:17[m[K:
+[01m[K/usr/include/boost/bind/bind_cc.hpp:30:58:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kboost::reference_wrapper<const gps::Gps_<std::allocator<void> > >[m[K' changed in GCC 7.1
+     return _bi::bind_t<R, F, list_type> (f, list_type(a1)[01;36m[K)[m[K;
+                                                          [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:17[m[K:
+[01m[K/usr/include/boost/bind/bind.hpp:[m[K In constructor '[01m[Kboost::_bi::list1<A1>::list1(A1) [with A1 = boost::reference_wrapper<const gps::Gps_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/boost/bind/bind.hpp:231:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kboost::reference_wrapper<const gps::Gps_<std::allocator<void> > >[m[K' changed in GCC 7.1
+     explicit [01;36m[Klist1[m[K( A1 a1 ): base_type( a1 ) {}
+              [01;36m[K^~~~~[m[K
+[01m[K/usr/include/boost/bind/bind.hpp:231:44:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kboost::reference_wrapper<const gps::Gps_<std::allocator<void> > >[m[K' changed in GCC 7.1
+     explicit list1( A1 a1 ): base_type( a1 [01;36m[K)[m[K {}
+                                            [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:17[m[K:
+[01m[K/usr/include/boost/bind/bind.hpp:[m[K In constructor '[01m[Kboost::_bi::list1<A1>::list1(A1) [with A1 = boost::reference_wrapper<const gps::Gps_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/boost/bind/bind.hpp:231:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kboost::reference_wrapper<const gps::Gps_<std::allocator<void> > >[m[K' changed in GCC 7.1
+     explicit [01;36m[Klist1[m[K( A1 a1 ): base_type( a1 ) {}
+              [01;36m[K^~~~~[m[K
+[01m[K/usr/include/boost/bind/bind.hpp:231:44:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kboost::reference_wrapper<const gps::Gps_<std::allocator<void> > >[m[K' changed in GCC 7.1
+     explicit list1( A1 a1 ): base_type( a1 [01;36m[K)[m[K {}
+                                            [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/bind/bind.hpp:47[m[K,
+                 from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:17[m[K:
+[01m[K/usr/include/boost/bind/storage.hpp:[m[K In constructor '[01m[Kboost::_bi::storage1<A1>::storage1(A1) [with A1 = boost::reference_wrapper<const gps::Gps_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/boost/bind/storage.hpp:42:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kboost::reference_wrapper<const gps::Gps_<std::allocator<void> > >[m[K' changed in GCC 7.1
+     explicit [01;36m[Kstorage1[m[K( A1 a1 ): a1_( a1 ) {}
+              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/bind/bind.hpp:47[m[K,
+                 from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:17[m[K:
+[01m[K/usr/include/boost/bind/storage.hpp:[m[K In constructor '[01m[Kboost::_bi::storage1<A1>::storage1(A1) [with A1 = boost::reference_wrapper<const gps::Gps_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/boost/bind/storage.hpp:42:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kboost::reference_wrapper<const gps::Gps_<std::allocator<void> > >[m[K' changed in GCC 7.1
+     explicit [01;36m[Kstorage1[m[K( A1 a1 ): a1_( a1 ) {}
+              [01;36m[K^~~~~~~~[m[K
+/usr/bin/ld: CMakeFiles/gps_node.dir/src/gps_node.cpp.o: in function `main':
+gps_node.cpp:(.text+0x440): undefined reference to `ros::init(int&, char**, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int)'
+/usr/bin/ld: gps_node.cpp:(.text+0x4b8): undefined reference to `ros::NodeHandle::NodeHandle(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&)'
+/usr/bin/ld: gps_node.cpp:(.text+0x540): undefined reference to `ros::Rate::Rate(double)'
+/usr/bin/ld: gps_node.cpp:(.text+0x590): undefined reference to `serialOpen'
+/usr/bin/ld: gps_node.cpp:(.text+0x5c0): undefined reference to `wiringPiSetup'
+/usr/bin/ld: gps_node.cpp:(.text+0x5e8): undefined reference to `ros::ok()'
+/usr/bin/ld: gps_node.cpp:(.text+0x608): undefined reference to `serialDataAvail'
+/usr/bin/ld: gps_node.cpp:(.text+0x62c): undefined reference to `serialGetchar'
+/usr/bin/ld: gps_node.cpp:(.text+0x6d0): undefined reference to `ros::console::initialize()'
+/usr/bin/ld: gps_node.cpp:(.text+0x71c): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text+0x760): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text+0x768): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+/usr/bin/ld: gps_node.cpp:(.text+0x7b4): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+/usr/bin/ld: gps_node.cpp:(.text+0x888): undefined reference to `ros::spinOnce()'
+/usr/bin/ld: gps_node.cpp:(.text+0x894): undefined reference to `ros::Rate::sleep()'
+/usr/bin/ld: gps_node.cpp:(.text+0x8a8): undefined reference to `ros::Publisher::~Publisher()'
+/usr/bin/ld: gps_node.cpp:(.text+0x8b4): undefined reference to `ros::NodeHandle::~NodeHandle()'
+/usr/bin/ld: gps_node.cpp:(.text+0x964): undefined reference to `ros::console::g_initialized'
+/usr/bin/ld: gps_node.cpp:(.text+0x9c0): undefined reference to `ros::Publisher::~Publisher()'
+/usr/bin/ld: gps_node.cpp:(.text+0x9cc): undefined reference to `ros::NodeHandle::~NodeHandle()'
+/usr/bin/ld: CMakeFiles/gps_node.dir/src/gps_node.cpp.o: in function `ros::Publisher ros::NodeHandle::advertise<gps::Gps_<std::allocator<void> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int, bool)':
+gps_node.cpp:(.text._ZN3ros10NodeHandle9advertiseIN3gps4Gps_ISaIvEEEEENS_9PublisherERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjb[_ZN3ros10NodeHandle9advertiseIN3gps4Gps_ISaIvEEEEENS_9PublisherERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjb]+0x90): undefined reference to `ros::NodeHandle::advertise(ros::AdvertiseOptions&)'
+/usr/bin/ld: CMakeFiles/gps_node.dir/src/gps_node.cpp.o: in function `void ros::Publisher::publish<gps::Gps_<std::allocator<void> > >(gps::Gps_<std::allocator<void> > const&) const':
+gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x44): undefined reference to `ros::console::initialize()'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x90): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0xd4): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0xdc): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x140): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x15c): undefined reference to `ros::console::initialize()'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x1a8): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x1ec): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x1f4): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x240): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x25c): undefined reference to `ros::console::initialize()'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x2a8): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x2ec): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x2f4): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x340): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x35c): undefined reference to `ros::Publisher::Impl::isValid() const'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x38c): undefined reference to `ros::console::initialize()'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x3d8): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x41c): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x424): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x488): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x4a4): undefined reference to `ros::console::initialize()'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x4f0): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x534): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x53c): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x5b0): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x5cc): undefined reference to `ros::console::initialize()'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x618): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x65c): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x664): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x6b0): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x7c8): undefined reference to `ros::console::initialize()'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x814): undefined reference to `ros::console::initializeLogLocation(ros::console::LogLocation*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x858): undefined reference to `ros::console::setLogLocationLevel(ros::console::LogLocation*, ros::console::levels::Level)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x860): undefined reference to `ros::console::checkLogLocationEnabled(ros::console::LogLocation*)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x940): undefined reference to `ros::console::print(ros::console::FilterBase*, void*, ros::console::levels::Level, char const*, int, char const*, char const*, ...)'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0x9ac): undefined reference to `ros::Publisher::publish(boost::function<ros::SerializedMessage ()> const&, ros::SerializedMessage&) const'
+/usr/bin/ld: gps_node.cpp:(.text._ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_[_ZNK3ros9Publisher7publishIN3gps4Gps_ISaIvEEEEEvRKT_]+0xb00): undefined reference to `ros::console::g_initialized'
+/usr/bin/ld: CMakeFiles/gps_node.dir/src/gps_node.cpp.o: in function `void ros::serialization::Serializer<unsigned int>::write<ros::serialization::OStream>(ros::serialization::OStream&, unsigned int)':
+gps_node.cpp:(.text._ZN3ros13serialization10SerializerIjE5writeINS0_7OStreamEEEvRT_j[_ZN3ros13serialization10SerializerIjE5writeINS0_7OStreamEEEvRT_j]+0x60): undefined reference to `ros::serialization::throwStreamOverrun()'
+/usr/bin/ld: CMakeFiles/gps_node.dir/src/gps_node.cpp.o: in function `void ros::serialization::Serializer<double>::write<ros::serialization::OStream>(ros::serialization::OStream&, double)':
+gps_node.cpp:(.text._ZN3ros13serialization10SerializerIdE5writeINS0_7OStreamEEEvRT_d[_ZN3ros13serialization10SerializerIdE5writeINS0_7OStreamEEEvRT_d]+0x60): undefined reference to `ros::serialization::throwStreamOverrun()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/gps_node.dir/build.make:84: /home/pi/do_an_ws/devel/.private/gps/lib/gps/gps_node] Error 1
+make[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/gps_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/bond/share/roseus/ros/bond/msg/Constants.l

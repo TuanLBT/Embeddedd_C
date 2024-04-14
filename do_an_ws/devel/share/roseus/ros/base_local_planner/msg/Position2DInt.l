@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/base_local_planner/share/roseus/ros/base_local_planner/msg/Position2DInt.l

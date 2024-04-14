@@ -1,0 +1,6 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libtest_nodelet.so
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/test_nodelet.pc
+Symlinking /home/pi/do_an_ws/devel/lib/test_nodelet/benchmark
+Symlinking /home/pi/do_an_ws/devel/lib/test_nodelet/create_instance_cb_error
+Symlinking /home/pi/do_an_ws/devel/share/test_nodelet/cmake/test_nodeletConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/test_nodelet/cmake/test_nodeletConfig.cmake

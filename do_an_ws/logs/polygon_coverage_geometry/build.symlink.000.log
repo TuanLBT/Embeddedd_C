@@ -1,0 +1,4 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libpolygon_coverage_geometry.so
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/polygon_coverage_geometry.pc
+Symlinking /home/pi/do_an_ws/devel/share/polygon_coverage_geometry/cmake/polygon_coverage_geometryConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/polygon_coverage_geometry/cmake/polygon_coverage_geometryConfig.cmake

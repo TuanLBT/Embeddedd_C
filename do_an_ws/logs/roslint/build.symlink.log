@@ -1,0 +1,5 @@
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/roslint/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/roslint.pc
+Symlinking /home/pi/do_an_ws/devel/share/roslint/cmake/roslint-extras.cmake
+Symlinking /home/pi/do_an_ws/devel/share/roslint/cmake/roslintConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/roslint/cmake/roslintConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/path_coverage/share/roseus/ros/path_coverage/manifest.l

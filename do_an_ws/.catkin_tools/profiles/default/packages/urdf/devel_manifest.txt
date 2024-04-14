@@ -1,0 +1,7 @@
+urdf/urdf
+/home/pi/do_an_ws/devel/.private/urdf/cmake.lock /home/pi/do_an_ws/devel/./cmake.lock
+/home/pi/do_an_ws/devel/.private/urdf/lib/liburdf.so /home/pi/do_an_ws/devel/lib/liburdf.so
+/home/pi/do_an_ws/devel/.private/urdf/lib/pkgconfig/urdf.pc /home/pi/do_an_ws/devel/lib/pkgconfig/urdf.pc
+/home/pi/do_an_ws/devel/.private/urdf/share/urdf/cmake/urdfConfig-version.cmake /home/pi/do_an_ws/devel/share/urdf/cmake/urdfConfig-version.cmake
+/home/pi/do_an_ws/devel/.private/urdf/share/urdf/cmake/urdfConfig.cmake /home/pi/do_an_ws/devel/share/urdf/cmake/urdfConfig.cmake
+/home/pi/do_an_ws/devel/.private/urdf/include/urdf/urdfdom_compatibility.h /home/pi/do_an_ws/devel/include/urdf/urdfdom_compatibility.h

@@ -1,0 +1,11 @@
+polygon_coverage_planning/polygon_coverage_ros
+/home/pi/do_an_ws/devel/.private/polygon_coverage_ros/cmake.lock /home/pi/do_an_ws/devel/./cmake.lock
+/home/pi/do_an_ws/devel/.private/polygon_coverage_ros/lib/libpolygon_coverage_ros.so /home/pi/do_an_ws/devel/lib/libpolygon_coverage_ros.so
+/home/pi/do_an_ws/devel/.private/polygon_coverage_ros/lib/pkgconfig/polygon_coverage_ros.pc /home/pi/do_an_ws/devel/lib/pkgconfig/polygon_coverage_ros.pc
+/home/pi/do_an_ws/devel/.private/polygon_coverage_ros/lib/polygon_coverage_ros/coverage_planner_exact /home/pi/do_an_ws/devel/lib/polygon_coverage_ros/coverage_planner_exact
+/home/pi/do_an_ws/devel/.private/polygon_coverage_ros/lib/polygon_coverage_ros/shortest_path_planner /home/pi/do_an_ws/devel/lib/polygon_coverage_ros/shortest_path_planner
+/home/pi/do_an_ws/devel/.private/polygon_coverage_ros/lib/polygon_coverage_ros/coverage_planner /home/pi/do_an_ws/devel/lib/polygon_coverage_ros/coverage_planner
+/home/pi/do_an_ws/devel/.private/polygon_coverage_ros/lib/polygon_coverage_ros/sweep_test /home/pi/do_an_ws/devel/lib/polygon_coverage_ros/sweep_test
+/home/pi/do_an_ws/devel/.private/polygon_coverage_ros/lib/polygon_coverage_ros/coverage_planner_exact_preprocessed /home/pi/do_an_ws/devel/lib/polygon_coverage_ros/coverage_planner_exact_preprocessed
+/home/pi/do_an_ws/devel/.private/polygon_coverage_ros/share/polygon_coverage_ros/cmake/polygon_coverage_rosConfig-version.cmake /home/pi/do_an_ws/devel/share/polygon_coverage_ros/cmake/polygon_coverage_rosConfig-version.cmake
+/home/pi/do_an_ws/devel/.private/polygon_coverage_ros/share/polygon_coverage_ros/cmake/polygon_coverage_rosConfig.cmake /home/pi/do_an_ws/devel/share/polygon_coverage_ros/cmake/polygon_coverage_rosConfig.cmake

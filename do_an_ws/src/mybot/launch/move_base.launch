@@ -1,0 +1,23 @@
+<launch>
+
+  <arg name="no_static_map" default="false"/>
+
+  <node pkg="move_base" type="move_base" respawn="true" name="move_base" output="screen">
+    <rosparam file="$(find mybot)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find mybot)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+
+    <rosparam file="$(find mybot)/config/local_costmap_params.yaml" command="load" />
+    <param name="local_costmap/width" value="10.0"/>
+    <param name="local_costmap/height" value="10.0"/>
+
+    <rosparam file="$(find mybot)/config/global_costmap_params.yaml" command="load" />
+    <param name="global_costmap/width" value="100.0" if="$(arg no_static_map)"/>
+    <param name="global_costmap/height" value="100.0" if="$(arg no_static_map)"/>
+
+    <rosparam file="$(find mybot)/config/base_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find mybot)/config/move_base_params.yaml" command="load" />
+  </node>
+  
+  <node pkg="mybot" type="move_base_sequence.py" name="move_base_sequence" respawn="true"/> 
+  
+</launch>

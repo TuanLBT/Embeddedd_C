@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/geographic_msgs/share/roseus/ros/geographic_msgs/msg/GeoPath.l

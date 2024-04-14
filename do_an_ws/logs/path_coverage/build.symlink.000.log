@@ -1,0 +1,7 @@
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/path_coverage/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/path_coverage.pc
+Symlinking /home/pi/do_an_ws/devel/share/roseus/ros/path_coverage/manifest.l
+Symlinking /home/pi/do_an_ws/devel/share/path_coverage/cmake/path_coverageConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/path_coverage/cmake/path_coverageConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/path_coverage/cmake/path_coverage-msg-paths.cmake
+Symlinking /home/pi/do_an_ws/devel/share/path_coverage/cmake/path_coverage-msg-extras.cmake

@@ -1,0 +1,5 @@
+Symlinking /home/pi/do_an_ws/devel/lib/liburdf.so
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/urdf.pc
+Symlinking /home/pi/do_an_ws/devel/share/urdf/cmake/urdfConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/urdf/cmake/urdfConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/include/urdf/urdfdom_compatibility.h

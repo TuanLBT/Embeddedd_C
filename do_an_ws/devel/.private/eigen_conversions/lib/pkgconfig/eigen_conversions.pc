@@ -1,0 +1,8 @@
+prefix=/home/pi/do_an_ws/devel/.private/eigen_conversions
+
+Name: eigen_conversions
+Description: Description of eigen_conversions
+Version: 1.13.2
+Cflags: -I/home/pi/do_an_ws/src/geometry/eigen_conversions/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -leigen_conversions -lorocos-kdl
+Requires: geometry_msgs std_msgs

@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/shape_msgs/lib/pkgconfig/shape_msgs.pc

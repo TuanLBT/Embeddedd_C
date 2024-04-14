@@ -1,0 +1,11 @@
+# CMake generated Testfile for 
+# Source directory: /home/pi/do_an_ws/src/laser_geometry
+# Build directory: /home/pi/do_an_ws/build/laser_geometry
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_laser_geometry_gtest_projection_test "/home/pi/do_an_ws/build/laser_geometry/catkin_generated/env_cached.sh" "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/home/pi/do_an_ws/build/laser_geometry/test_results/laser_geometry/gtest-projection_test.xml" "--return-code" "/home/pi/do_an_ws/devel/.private/laser_geometry/lib/laser_geometry/projection_test --gtest_output=xml:/home/pi/do_an_ws/build/laser_geometry/test_results/laser_geometry/gtest-projection_test.xml")
+set_tests_properties(_ctest_laser_geometry_gtest_projection_test PROPERTIES  _BACKTRACE_TRIPLES "/opt/ros/noetic/share/catkin/cmake/test/tests.cmake;160;add_test;/opt/ros/noetic/share/catkin/cmake/test/gtest.cmake;98;catkin_run_tests_target;/opt/ros/noetic/share/catkin/cmake/test/gtest.cmake;37;_catkin_add_google_test;/home/pi/do_an_ws/src/laser_geometry/CMakeLists.txt;44;catkin_add_gtest;/home/pi/do_an_ws/src/laser_geometry/CMakeLists.txt;0;")
+add_test(_ctest_laser_geometry_nosetests_test.projection_test.py "/home/pi/do_an_ws/build/laser_geometry/catkin_generated/env_cached.sh" "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/home/pi/do_an_ws/build/laser_geometry/test_results/laser_geometry/nosetests-test.projection_test.py.xml" "--return-code" "\"/usr/bin/cmake\" -E make_directory /home/pi/do_an_ws/build/laser_geometry/test_results/laser_geometry" "/usr/bin/nosetests3 -P --process-timeout=60 /home/pi/do_an_ws/src/laser_geometry/test/projection_test.py --with-xunit --xunit-file=/home/pi/do_an_ws/build/laser_geometry/test_results/laser_geometry/nosetests-test.projection_test.py.xml")
+set_tests_properties(_ctest_laser_geometry_nosetests_test.projection_test.py PROPERTIES  _BACKTRACE_TRIPLES "/opt/ros/noetic/share/catkin/cmake/test/tests.cmake;160;add_test;/opt/ros/noetic/share/catkin/cmake/test/nosetests.cmake;83;catkin_run_tests_target;/home/pi/do_an_ws/src/laser_geometry/CMakeLists.txt;48;catkin_add_nosetests;/home/pi/do_an_ws/src/laser_geometry/CMakeLists.txt;0;")
+subdirs("gtest")

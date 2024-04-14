@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/navfn/share/roseus/ros/navfn/manifest.l

@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/test_bond/share/roseus/ros/test_bond/manifest.l

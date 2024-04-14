@@ -1,0 +1,5 @@
+Symlinking /home/pi/do_an_ws/devel/lib/librosconsole_bridge.so
+Symlinking /home/pi/do_an_ws/devel/lib/rosconsole_bridge/cleanup
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/rosconsole_bridge.pc
+Symlinking /home/pi/do_an_ws/devel/share/rosconsole_bridge/cmake/rosconsole_bridgeConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/rosconsole_bridge/cmake/rosconsole_bridgeConfig.cmake

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/pi/do_an_ws/devel/.private/camera_info_manager/setup.sh

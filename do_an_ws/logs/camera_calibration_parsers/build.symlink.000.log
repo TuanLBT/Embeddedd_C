@@ -1,0 +1,9 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libcamera_calibration_parsers.so
+Symlinking /home/pi/do_an_ws/devel/lib/camera_calibration_parsers/convert
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/camera_calibration_parsers/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/camera_calibration_parsers/camera_calibration_parsers_wrapper.so
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/camera_calibration_parsers.pc
+Symlinking /home/pi/do_an_ws/devel/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/camera_calibration_parsers/test/calib5.ini
+Symlinking /home/pi/do_an_ws/devel/share/camera_calibration_parsers/test/calib8.ini

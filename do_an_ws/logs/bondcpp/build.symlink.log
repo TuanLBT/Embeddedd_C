@@ -1,0 +1,4 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libbondcpp.so
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/bondcpp.pc
+Symlinking /home/pi/do_an_ws/devel/share/bondcpp/cmake/bondcppConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/bondcpp/cmake/bondcppConfig.cmake

@@ -1,0 +1,4 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libtest_nodelet_topic_tools.so
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/test_nodelet_topic_tools.pc
+Symlinking /home/pi/do_an_ws/devel/share/test_nodelet_topic_tools/cmake/test_nodelet_topic_toolsConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/test_nodelet_topic_tools/cmake/test_nodelet_topic_toolsConfig.cmake

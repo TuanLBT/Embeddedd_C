@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake

@@ -1,0 +1,5 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libgeoconv.so
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/geodesy/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/geodesy.pc
+Symlinking /home/pi/do_an_ws/devel/share/geodesy/cmake/geodesyConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/geodesy/cmake/geodesyConfig-version.cmake

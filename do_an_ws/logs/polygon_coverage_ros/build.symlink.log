@@ -1,0 +1,9 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libpolygon_coverage_ros.so
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/polygon_coverage_ros.pc
+Symlinking /home/pi/do_an_ws/devel/lib/polygon_coverage_ros/coverage_planner_exact
+Symlinking /home/pi/do_an_ws/devel/lib/polygon_coverage_ros/shortest_path_planner
+Symlinking /home/pi/do_an_ws/devel/lib/polygon_coverage_ros/coverage_planner
+Symlinking /home/pi/do_an_ws/devel/lib/polygon_coverage_ros/sweep_test
+Symlinking /home/pi/do_an_ws/devel/lib/polygon_coverage_ros/coverage_planner_exact_preprocessed
+Symlinking /home/pi/do_an_ws/devel/share/polygon_coverage_ros/cmake/polygon_coverage_rosConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/polygon_coverage_ros/cmake/polygon_coverage_rosConfig.cmake

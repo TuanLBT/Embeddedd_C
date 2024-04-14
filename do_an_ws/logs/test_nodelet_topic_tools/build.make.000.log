@@ -1,0 +1,88 @@
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[  0%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[  0%] Built target nodelet_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[  0%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[  0%] Built target nodelet_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[  0%] Built target nodelet_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[  0%] Built target nodelet_generate_messages_lisp
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[  0%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[  0%] Built target bond_generate_messages_eus
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[  0%] Built target bond_generate_messages_nodejs
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[  0%] Built target bond_generate_messages_py
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[  0%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[  0%] Built target nodelet_topic_tools_gencfg
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target test_nodelet_topic_tools[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/test_nodelet_topic_tools.dir/test/string_nodelet_lazy.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/test_nodelet_topic_tools.dir/test/string_nodelet_throttle.cpp.o[0m
+In file included from [01m[K/usr/include/c++/8/vector:69[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/nodelet_core/nodelet_topic_tools/include/nodelet_topic_tools/nodelet_throttle.h:33[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/nodelet_core/test_nodelet_topic_tools/test/string_nodelet_throttle.cpp:1[m[K:
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {dynamic_reconfigure::DoubleParameter_<std::allocator<void> >}; _Tp = dynamic_reconfigure::DoubleParameter_<std::allocator<void> >; _Alloc = std::allocator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> > >][m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >, std::allocator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> > > >::iterator[m[K' {aka '[01m[K__gnu_cxx::__normal_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*, std::vector<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >, std::allocator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> > > > >[m[K'} changed in GCC 7.1
+       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kvoid nodelet_topic_tools::NodeletThrottleConfig::ParamDescription<T>::toMessage(dynamic_reconfigure::Config&, const nodelet_topic_tools::NodeletThrottleConfig&) const [with T = double][m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:109:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*, std::vector<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >, std::allocator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), std::forward<_Args>(__args)...);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kvoid nodelet_topic_tools::NodeletThrottleConfig::__toMessage__(dynamic_reconfigure::Config&, const std::vector<boost::shared_ptr<const nodelet_topic_tools::NodeletThrottleConfig::AbstractParamDescription> >&, const std::vector<boost::shared_ptr<const nodelet_topic_tools::NodeletThrottleConfig::AbstractGroupDescription> >&) const[m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:109:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >*, std::vector<dynamic_reconfigure::DoubleParameter_<std::allocator<void> >, std::allocator<dynamic_reconfigure::DoubleParameter_<std::allocator<void> > > > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), std::forward<_Args>(__args)...);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library /home/pi/do_an_ws/devel/.private/test_nodelet_topic_tools/lib/libtest_nodelet_topic_tools.so[0m
+[100%] Built target test_nodelet_topic_tools

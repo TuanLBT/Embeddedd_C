@@ -1,0 +1,51 @@
+<launch>
+
+    <!--Start receive bluetooh data -->
+    <!-- <node pkg="mybot" type="manual_ros_v4.py" name="manual_ros" respawn="true"/>  -->
+
+    <!--Start receive stm32 velocity data -->
+    <node pkg="mybot" type="stm32_velocity_sub.py" name="stm32_velocity_pub" respawn="true"/> 
+
+
+    <!-- map to odom transform -->
+    <node pkg="tf" type="static_transform_publisher" name="map_to_odom" args="0 0 0 0 0 0 map odom 30" />
+
+    <!-- odom to base_link transform -->
+    <node pkg="mybot" type="differential_tf.py" name="differential_tf" /> 
+    
+    <!--Publishes /imu/data from IMU MPU6050-->
+    <include file="$(find mpu6050)/launch/mpu6050.launch" />
+    <node pkg="tf" type="static_transform_publisher" name="base_to_imu" args="0.0 0.0 0 0 0 0 base_link imu_link 1000" >
+        <!-- <remap from="/imu_link" to="/imu/data"/> -->
+    </node>
+
+
+    <!-- data from GPS -->
+    <!-- <include file="$(find mybot)/launch/gps.launch" /> -->
+
+
+
+    <!--Fuses imu and wheel encoder and GPS odometry data-->
+    <include file="$(find mybot)/launch/ekf_localization.launch" />
+    
+    <!-- *******************************************thuat_toan_si_da********************************************* -->
+    <!--Simple Navigation Controller -->
+     <!-- <node pkg="mybot" type="robot_controller.py" name="robot_controller" /> -->
+
+    <!-- guidance system -->
+    <!-- <include file="$(find mybot)/launch/coverage_planner.launch" />
+    <node pkg="mybot" type="simple_sequencer.py" name="simple_sequencer" /> -->
+        <!-- *******************************************thuat_toan_si_da********************************************* -->
+
+
+    <!-- add map server  -->
+    <!-- <include file="$(find mybot)/launch/map_server.launch" />  -->
+    
+    <!-- move base launch -->
+    <!-- <include file="$(find mybot)/launch/move_base.launch" />    -->
+
+
+    <!-- polygon alogorithm      -->
+    <!-- <include file="$(find path_coverage)/launch/path_coverage.launch" />   -->
+    
+</launch>

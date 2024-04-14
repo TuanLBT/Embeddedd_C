@@ -1,0 +1,8 @@
+prefix=/home/pi/do_an_ws/devel/.private/test_bond
+
+Name: test_bond
+Description: Description of test_bond
+Version: 1.8.6
+Cflags: -I/home/pi/do_an_ws/devel/.private/test_bond/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/rosdiagnostic/share/rosdiagnostic/cmake/rosdiagnosticConfig.cmake

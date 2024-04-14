@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/bond/share/gennodejs/ros/bond/msg/Constants.js

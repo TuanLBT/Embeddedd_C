@@ -1,0 +1,7 @@
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/rqt_gui/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/rqt_gui/cmake.lock
+Symlinking /home/pi/do_an_ws/devel/lib/rqt_gui/rqt_gui
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/rqt_gui.pc
+Symlinking /home/pi/do_an_ws/devel/share/rqt_gui/cmake/rqt_guiConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/rqt_gui/cmake/rqt_guiConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/bin/rqt

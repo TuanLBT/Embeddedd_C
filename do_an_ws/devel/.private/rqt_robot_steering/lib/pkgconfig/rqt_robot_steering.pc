@@ -1,0 +1,8 @@
+prefix=/home/pi/do_an_ws/devel/.private/rqt_robot_steering
+
+Name: rqt_robot_steering
+Description: Description of rqt_robot_steering
+Version: 0.5.12
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

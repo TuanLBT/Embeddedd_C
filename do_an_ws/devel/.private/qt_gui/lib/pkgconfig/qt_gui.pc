@@ -1,0 +1,8 @@
+prefix=/home/pi/do_an_ws/devel/.private/qt_gui
+
+Name: qt_gui
+Description: Description of qt_gui
+Version: 0.3.18
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

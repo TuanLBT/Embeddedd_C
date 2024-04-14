@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/mpu6050/lib/pkgconfig/mpu6050.pc

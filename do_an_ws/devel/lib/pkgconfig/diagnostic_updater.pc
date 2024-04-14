@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/diagnostic_updater/lib/pkgconfig/diagnostic_updater.pc

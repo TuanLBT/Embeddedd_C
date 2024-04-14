@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/rosdiagnostic/lib/python3/dist-packages/rosdiagnostic/__init__.py

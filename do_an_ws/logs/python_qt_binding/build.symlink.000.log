@@ -1,0 +1,5 @@
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/python_qt_binding/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/python_qt_binding.pc
+Symlinking /home/pi/do_an_ws/devel/share/python_qt_binding/cmake/python_qt_bindingConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/python_qt_binding/cmake/python_qt_binding-extras.cmake
+Symlinking /home/pi/do_an_ws/devel/share/python_qt_binding/cmake/python_qt_bindingConfig-version.cmake

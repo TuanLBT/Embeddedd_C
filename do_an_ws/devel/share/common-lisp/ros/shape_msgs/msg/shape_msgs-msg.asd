@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/shape_msgs/share/common-lisp/ros/shape_msgs/msg/shape_msgs-msg.asd

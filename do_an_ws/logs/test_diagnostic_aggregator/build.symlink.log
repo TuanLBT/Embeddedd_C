@@ -1,0 +1,4 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libtest_diagnostic_aggregator.so
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/test_diagnostic_aggregator.pc
+Symlinking /home/pi/do_an_ws/devel/share/test_diagnostic_aggregator/cmake/test_diagnostic_aggregatorConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/test_diagnostic_aggregator/cmake/test_diagnostic_aggregatorConfig.cmake

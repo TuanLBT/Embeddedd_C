@@ -1,0 +1,6 @@
+polygon_coverage_planning/polygon_coverage_planners
+/home/pi/do_an_ws/devel/.private/polygon_coverage_planners/cmake.lock /home/pi/do_an_ws/devel/./cmake.lock
+/home/pi/do_an_ws/devel/.private/polygon_coverage_planners/lib/libpolygon_coverage_planners.so /home/pi/do_an_ws/devel/lib/libpolygon_coverage_planners.so
+/home/pi/do_an_ws/devel/.private/polygon_coverage_planners/lib/pkgconfig/polygon_coverage_planners.pc /home/pi/do_an_ws/devel/lib/pkgconfig/polygon_coverage_planners.pc
+/home/pi/do_an_ws/devel/.private/polygon_coverage_planners/share/polygon_coverage_planners/cmake/polygon_coverage_plannersConfig-version.cmake /home/pi/do_an_ws/devel/share/polygon_coverage_planners/cmake/polygon_coverage_plannersConfig-version.cmake
+/home/pi/do_an_ws/devel/.private/polygon_coverage_planners/share/polygon_coverage_planners/cmake/polygon_coverage_plannersConfig.cmake /home/pi/do_an_ws/devel/share/polygon_coverage_planners/cmake/polygon_coverage_plannersConfig.cmake

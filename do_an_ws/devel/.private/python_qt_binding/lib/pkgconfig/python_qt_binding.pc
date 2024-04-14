@@ -1,0 +1,8 @@
+prefix=/home/pi/do_an_ws/devel/.private/python_qt_binding
+
+Name: python_qt_binding
+Description: Description of python_qt_binding
+Version: 0.3.8
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

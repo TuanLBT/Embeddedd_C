@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/polled_camera/share/common-lisp/ros/polled_camera/srv/polled_camera-srv.asd

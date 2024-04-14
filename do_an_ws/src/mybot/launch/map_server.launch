@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- add map server  -->
+    <arg name="map_file" default="$(find mybot)/maps/mymap_empty.yaml"/>
+    <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_file)" respawn="true"/>
+
+</launch>

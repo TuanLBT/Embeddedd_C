@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/map_msgs/share/roseus/ros/map_msgs/srv/GetPointMap.l

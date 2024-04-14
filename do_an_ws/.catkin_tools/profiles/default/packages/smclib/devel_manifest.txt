@@ -1,0 +1,6 @@
+bond_core/smclib
+/home/pi/do_an_ws/devel/.private/smclib/cmake.lock /home/pi/do_an_ws/devel/./cmake.lock
+/home/pi/do_an_ws/devel/.private/smclib/lib/python3/dist-packages/smclib/__init__.py /home/pi/do_an_ws/devel/lib/python3/dist-packages/smclib/__init__.py
+/home/pi/do_an_ws/devel/.private/smclib/lib/pkgconfig/smclib.pc /home/pi/do_an_ws/devel/lib/pkgconfig/smclib.pc
+/home/pi/do_an_ws/devel/.private/smclib/share/smclib/cmake/smclibConfig.cmake /home/pi/do_an_ws/devel/share/smclib/cmake/smclibConfig.cmake
+/home/pi/do_an_ws/devel/.private/smclib/share/smclib/cmake/smclibConfig-version.cmake /home/pi/do_an_ws/devel/share/smclib/cmake/smclibConfig-version.cmake

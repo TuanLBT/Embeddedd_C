@@ -1,0 +1,9 @@
+path_coverage_ros
+/home/pi/do_an_ws/devel/.private/path_coverage/cmake.lock /home/pi/do_an_ws/devel/./cmake.lock
+/home/pi/do_an_ws/devel/.private/path_coverage/lib/python3/dist-packages/path_coverage/__init__.py /home/pi/do_an_ws/devel/lib/python3/dist-packages/path_coverage/__init__.py
+/home/pi/do_an_ws/devel/.private/path_coverage/lib/pkgconfig/path_coverage.pc /home/pi/do_an_ws/devel/lib/pkgconfig/path_coverage.pc
+/home/pi/do_an_ws/devel/.private/path_coverage/share/roseus/ros/path_coverage/manifest.l /home/pi/do_an_ws/devel/share/roseus/ros/path_coverage/manifest.l
+/home/pi/do_an_ws/devel/.private/path_coverage/share/path_coverage/cmake/path_coverageConfig.cmake /home/pi/do_an_ws/devel/share/path_coverage/cmake/path_coverageConfig.cmake
+/home/pi/do_an_ws/devel/.private/path_coverage/share/path_coverage/cmake/path_coverageConfig-version.cmake /home/pi/do_an_ws/devel/share/path_coverage/cmake/path_coverageConfig-version.cmake
+/home/pi/do_an_ws/devel/.private/path_coverage/share/path_coverage/cmake/path_coverage-msg-paths.cmake /home/pi/do_an_ws/devel/share/path_coverage/cmake/path_coverage-msg-paths.cmake
+/home/pi/do_an_ws/devel/.private/path_coverage/share/path_coverage/cmake/path_coverage-msg-extras.cmake /home/pi/do_an_ws/devel/share/path_coverage/cmake/path_coverage-msg-extras.cmake

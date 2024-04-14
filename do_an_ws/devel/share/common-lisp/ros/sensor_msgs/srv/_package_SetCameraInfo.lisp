@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/sensor_msgs/share/common-lisp/ros/sensor_msgs/srv/_package_SetCameraInfo.lisp

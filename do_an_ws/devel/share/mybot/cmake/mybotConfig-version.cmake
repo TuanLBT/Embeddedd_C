@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/mybot/share/mybot/cmake/mybotConfig-version.cmake

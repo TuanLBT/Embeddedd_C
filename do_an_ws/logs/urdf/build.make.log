@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target urdf[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/urdf.dir/src/model.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/urdf.dir/src/rosconsole_bridge.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/pi/do_an_ws/devel/.private/urdf/lib/liburdf.so[0m
+[100%] Built target urdf

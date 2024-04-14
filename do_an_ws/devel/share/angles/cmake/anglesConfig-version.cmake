@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/angles/share/angles/cmake/anglesConfig-version.cmake

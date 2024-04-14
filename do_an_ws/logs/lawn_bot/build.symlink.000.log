@@ -1,0 +1,12 @@
+Symlinking /home/pi/do_an_ws/devel/lib/lawn_bot/cmake.lock
+Symlinking /home/pi/do_an_ws/devel/lib/lawn_bot/sonar_sensor.py
+Symlinking /home/pi/do_an_ws/devel/lib/lawn_bot/polygon_input.py
+Symlinking /home/pi/do_an_ws/devel/lib/lawn_bot/simple_sequencer.py
+Symlinking /home/pi/do_an_ws/devel/lib/lawn_bot/robot_controller.py
+Symlinking /home/pi/do_an_ws/devel/lib/lawn_bot/move_base_sequence.py
+Symlinking /home/pi/do_an_ws/devel/lib/lawn_bot/safety_controller.py
+Symlinking /home/pi/do_an_ws/devel/lib/lawn_bot/differential_tf.py
+Symlinking /home/pi/do_an_ws/devel/lib/lawn_bot/waypoints_publisher.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/lawn_bot.pc
+Symlinking /home/pi/do_an_ws/devel/share/lawn_bot/cmake/lawn_botConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/lawn_bot/cmake/lawn_botConfig.cmake

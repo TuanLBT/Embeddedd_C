@@ -1,0 +1,5 @@
+Symlinking /home/pi/do_an_ws/devel/lib/liblaser_geometry.so
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/laser_geometry/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/laser_geometry.pc
+Symlinking /home/pi/do_an_ws/devel/share/laser_geometry/cmake/laser_geometryConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/laser_geometry/cmake/laser_geometryConfig.cmake

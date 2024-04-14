@@ -1,0 +1,2 @@
+set(polygon_coverage_msgs_MESSAGE_FILES "/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_msgs/msg/PolygonWithHoles.msg;/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_msgs/msg/PolygonWithHolesStamped.msg")
+set(polygon_coverage_msgs_SERVICE_FILES "/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_msgs/srv/PlannerService.srv;/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_msgs/srv/PolygonService.srv")

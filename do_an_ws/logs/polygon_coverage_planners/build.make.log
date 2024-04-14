@@ -1,0 +1,192 @@
+[35m[1mScanning dependencies of target polygon_coverage_planners[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/polygon_coverage_planners.dir/src/cost_functions/path_cost_functions.cc.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/polygon_coverage_planners.dir/src/graphs/gtspp_product_graph.cc.o[0m
+In file included from [01m[K/usr/include/c++/8/map:60[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/console.h:42[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/src/graphs/gtspp_product_graph.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_tree.h:[m[K In function '[01m[Kstd::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::iterator std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::_M_emplace_hint_unique(std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::const_iterator, _Args&& ...) [with _Args = {const std::piecewise_construct_t&, std::tuple<const unsigned int&>, std::tuple<>}; _Key = unsigned int; _Val = std::pair<const unsigned int, double>; _KeyOfValue = std::_Select1st<std::pair<const unsigned int, double> >; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, double> >][m[K':
+[01m[K/usr/include/c++/8/bits/stl_tree.h:2411:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, double>, std::_Select1st<std::pair<const unsigned int, double> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double> > >::const_iterator[m[K' {aka '[01m[Kstd::_Rb_tree_const_iterator<std::pair<const unsigned int, double> >[m[K'} changed in GCC 7.1
+       [01;36m[K_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/map:61[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/console.h:42[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/src/graphs/gtspp_product_graph.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_map.h:[m[K In member function '[01m[Kstd::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](const key_type&) [with _Key = unsigned int; _Tp = double; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, double> >][m[K':
+[01m[K/usr/include/c++/8/bits/stl_map.h:499:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, double>, std::_Select1st<std::pair<const unsigned int, double> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double> > >::const_iterator[m[K' {aka '[01m[Kstd::_Rb_tree_const_iterator<std::pair<const unsigned int, double> >[m[K'} changed in GCC 7.1
+    __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
+[01m[K/usr/include/c++/8/bits/stl_map.h:[m[K In member function '[01m[Kvirtual bool polygon_coverage_planning::gtspp_product_graph::GtsppProductGraph::addEdges()[m[K':
+[01m[K/usr/include/c++/8/bits/stl_map.h:499:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, double>, std::_Select1st<std::pair<const unsigned int, double> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double> > >::const_iterator[m[K' {aka '[01m[Kstd::_Rb_tree_const_iterator<std::pair<const unsigned int, double> >[m[K'} changed in GCC 7.1
+    __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
+[01m[K/usr/include/c++/8/bits/stl_map.h:[m[K In member function '[01m[Kbool polygon_coverage_planning::gtspp_product_graph::GtsppProductGraph::createDijkstra(polygon_coverage_planning::Solution*)[m[K':
+[01m[K/usr/include/c++/8/bits/stl_map.h:499:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, double>, std::_Select1st<std::pair<const unsigned int, double> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double> > >::const_iterator[m[K' {aka '[01m[Kstd::_Rb_tree_const_iterator<std::pair<const unsigned int, double> >[m[K'} changed in GCC 7.1
+    __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
+[01m[K/usr/include/c++/8/bits/stl_map.h:499:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, double>, std::_Select1st<std::pair<const unsigned int, double> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double> > >::const_iterator[m[K' {aka '[01m[Kstd::_Rb_tree_const_iterator<std::pair<const unsigned int, double> >[m[K'} changed in GCC 7.1
+    __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
+[01m[K/usr/include/c++/8/bits/stl_map.h:499:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, double>, std::_Select1st<std::pair<const unsigned int, double> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double> > >::const_iterator[m[K' {aka '[01m[Kstd::_Rb_tree_const_iterator<std::pair<const unsigned int, double> >[m[K'} changed in GCC 7.1
+    __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
+[01m[K/usr/include/c++/8/bits/stl_map.h:[m[K In member function '[01m[Kbool polygon_coverage_planning::GraphBase<NodeProperty, EdgeProperty>::solveDijkstra(size_t, size_t, polygon_coverage_planning::Solution*) const [with NodeProperty = polygon_coverage_planning::gtspp_product_graph::NodeProperty; EdgeProperty = polygon_coverage_planning::gtspp_product_graph::EdgeProperty][m[K':
+[01m[K/usr/include/c++/8/bits/stl_map.h:499:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, double>, std::_Select1st<std::pair<const unsigned int, double> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double> > >::const_iterator[m[K' {aka '[01m[Kstd::_Rb_tree_const_iterator<std::pair<const unsigned int, double> >[m[K'} changed in GCC 7.1
+    __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
+[01m[K/usr/include/c++/8/bits/stl_map.h:499:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, double>, std::_Select1st<std::pair<const unsigned int, double> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double> > >::const_iterator[m[K' {aka '[01m[Kstd::_Rb_tree_const_iterator<std::pair<const unsigned int, double> >[m[K'} changed in GCC 7.1
+    __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
+[01m[K/usr/include/c++/8/bits/stl_map.h:499:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, double>, std::_Select1st<std::pair<const unsigned int, double> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double> > >::const_iterator[m[K' {aka '[01m[Kstd::_Rb_tree_const_iterator<std::pair<const unsigned int, double> >[m[K'} changed in GCC 7.1
+    __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
+[01m[K/usr/include/c++/8/bits/stl_map.h:499:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, double>, std::_Select1st<std::pair<const unsigned int, double> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double> > >::const_iterator[m[K' {aka '[01m[Kstd::_Rb_tree_const_iterator<std::pair<const unsigned int, double> >[m[K'} changed in GCC 7.1
+    __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
+[01m[K/usr/include/c++/8/bits/stl_map.h:499:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, double>, std::_Select1st<std::pair<const unsigned int, double> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double> > >::const_iterator[m[K' {aka '[01m[Kstd::_Rb_tree_const_iterator<std::pair<const unsigned int, double> >[m[K'} changed in GCC 7.1
+    __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
+[01m[K/usr/include/c++/8/bits/stl_map.h:499:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, double>, std::_Select1st<std::pair<const unsigned int, double> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double> > >::const_iterator[m[K' {aka '[01m[Kstd::_Rb_tree_const_iterator<std::pair<const unsigned int, double> >[m[K'} changed in GCC 7.1
+    __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
+[ 37%] [32mBuilding CXX object CMakeFiles/polygon_coverage_planners.dir/src/graphs/sweep_plan_graph.cc.o[0m
+In file included from [01m[K/usr/include/c++/8/bits/stl_algo.h:61[m[K,
+                 from [01m[K/usr/include/c++/8/algorithm:62[m[K,
+                 from [01m[K/usr/include/CGAL/config.h:446[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:30[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/include/polygon_coverage_planners/graphs/sweep_plan_graph.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/src/graphs/sweep_plan_graph.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_heap.h:[m[K In function '[01m[Kvoid std::__adjust_heap(_RandomAccessIterator, _Distance, _Distance, _Tp, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<double*, std::vector<double> >; _Distance = int; _Tp = double; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/usr/include/c++/8/bits/stl_heap.h:214:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >[m[K' changed in GCC 7.1
+     [01;36m[K__adjust_heap[m[K(_RandomAccessIterator __first, _Distance __holeIndex,
+     [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/algorithm:62[m[K,
+                 from [01m[K/usr/include/CGAL/config.h:446[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:30[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/include/polygon_coverage_planners/graphs/sweep_plan_graph.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/src/graphs/sweep_plan_graph.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_algo.h:[m[K In function '[01m[Kvoid std::__insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<double*, std::vector<double> >; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/usr/include/c++/8/bits/stl_algo.h:1840:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >[m[K' changed in GCC 7.1
+     [01;36m[K__insertion_sort[m[K(_RandomAccessIterator __first,
+     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_algo.h:1840:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >[m[K' changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_algo.h:1840:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >[m[K' changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_algo.h:[m[K In function '[01m[Kvoid std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<double*, std::vector<double> >; _Size = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter][m[K':
+[01m[K/usr/include/c++/8/bits/stl_algo.h:1940:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >[m[K' changed in GCC 7.1
+     [01;36m[K__introsort_loop[m[K(_RandomAccessIterator __first,
+     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_algo.h:1940:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >[m[K' changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/stl_algo.h:1954:25:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >[m[K' changed in GCC 7.1
+    [01;36m[Kstd::__introsort_loop(__cut, __last, __depth_limit, __comp)[m[K;
+    [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:69[m[K,
+                 from [01m[K/usr/include/c++/8/functional:62[m[K,
+                 from [01m[K/usr/include/CGAL/number_type_basic.h:36[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:45[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/include/polygon_coverage_planners/graphs/sweep_plan_graph.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/src/graphs/sweep_plan_graph.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kstd::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::_M_erase(std::vector<_Tp, _Alloc>::iterator, std::vector<_Tp, _Alloc>::iterator) [with _Tp = polygon_coverage_planning::sweep_plan_graph::NodeProperty; _Alloc = std::allocator<polygon_coverage_planning::sweep_plan_graph::NodeProperty>][m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:172:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<polygon_coverage_planning::sweep_plan_graph::NodeProperty>::iterator[m[K' {aka '[01m[K__gnu_cxx::__normal_iterator<polygon_coverage_planning::sweep_plan_graph::NodeProperty*, std::vector<polygon_coverage_planning::sweep_plan_graph::NodeProperty> >[m[K'} changed in GCC 7.1
+     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/vector.tcc:172:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<polygon_coverage_planning::sweep_plan_graph::NodeProperty>::iterator[m[K' {aka '[01m[K__gnu_cxx::__normal_iterator<polygon_coverage_planning::sweep_plan_graph::NodeProperty*, std::vector<polygon_coverage_planning::sweep_plan_graph::NodeProperty> >[m[K'} changed in GCC 7.1
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const double&}; _Tp = double; _Alloc = std::allocator<double>][m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<double>::iterator[m[K' {aka '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >[m[K'} changed in GCC 7.1
+       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:64[m[K,
+                 from [01m[K/usr/include/c++/8/functional:62[m[K,
+                 from [01m[K/usr/include/CGAL/number_type_basic.h:36[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:45[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/include/polygon_coverage_planners/graphs/sweep_plan_graph.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/src/graphs/sweep_plan_graph.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In member function '[01m[Kstd::vector<std::vector<int> > polygon_coverage_planning::GraphBase<NodeProperty, EdgeProperty>::getAdjacencyMatrix() const [with NodeProperty = polygon_coverage_planning::sweep_plan_graph::NodeProperty; EdgeProperty = polygon_coverage_planning::sweep_plan_graph::EdgeProperty][m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/algorithm:62[m[K,
+                 from [01m[K/usr/include/CGAL/config.h:446[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:30[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/include/polygon_coverage_planners/graphs/sweep_plan_graph.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/src/graphs/sweep_plan_graph.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_algo.h:1968:25:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >[m[K' changed in GCC 7.1
+    [01;36m[Kstd::__introsort_loop(__first, __last,[m[K
+    [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K    std::__lg(__last - __first) * 2,[m[K
+     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;36m[K    __comp)[m[K;
+     [01;36m[K~~~~~~~[m[K              
+[01m[K/usr/include/c++/8/bits/stl_algo.h:1885:25:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >[m[K' changed in GCC 7.1
+    [01;36m[Kstd::__insertion_sort(__first, __first + int(_S_threshold), __comp)[m[K;
+    [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_algo.h:1890:23:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >[m[K' changed in GCC 7.1
+  [01;36m[Kstd::__insertion_sort(__first, __last, __comp)[m[K;
+  [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/map:60[m[K,
+                 from [01m[K/usr/include/CGAL/Profile_counter.h:59[m[K,
+                 from [01m[K/usr/include/CGAL/Uncertain.h:27[m[K,
+                 from [01m[K/usr/include/CGAL/assertions.h:359[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:43[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/include/polygon_coverage_planners/graphs/sweep_plan_graph.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/src/graphs/sweep_plan_graph.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_tree.h:[m[K In member function '[01m[Kstd::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::iterator std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::_M_emplace_hint_unique(std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::const_iterator, _Args&& ...) [with _Args = {const std::piecewise_construct_t&, std::tuple<const unsigned int&>, std::tuple<>}; _Key = unsigned int; _Val = std::pair<const unsigned int, double>; _KeyOfValue = std::_Select1st<std::pair<const unsigned int, double> >; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, double> >][m[K':
+[01m[K/usr/include/c++/8/bits/stl_tree.h:2411:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, double>, std::_Select1st<std::pair<const unsigned int, double> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double> > >::const_iterator[m[K' {aka '[01m[Kstd::_Rb_tree_const_iterator<std::pair<const unsigned int, double> >[m[K'} changed in GCC 7.1
+       [01;36m[K_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/map:61[m[K,
+                 from [01m[K/usr/include/CGAL/Profile_counter.h:59[m[K,
+                 from [01m[K/usr/include/CGAL/Uncertain.h:27[m[K,
+                 from [01m[K/usr/include/CGAL/assertions.h:359[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:43[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/include/polygon_coverage_planners/graphs/sweep_plan_graph.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/src/graphs/sweep_plan_graph.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_map.h:[m[K In member function '[01m[Kbool polygon_coverage_planning::GraphBase<NodeProperty, EdgeProperty>::addEdge(const EdgeId&, const EdgeProperty&, double) [with NodeProperty = polygon_coverage_planning::sweep_plan_graph::NodeProperty; EdgeProperty = polygon_coverage_planning::sweep_plan_graph::EdgeProperty][m[K':
+[01m[K/usr/include/c++/8/bits/stl_map.h:499:8:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::_Rb_tree<unsigned int, std::pair<const unsigned int, double>, std::_Select1st<std::pair<const unsigned int, double> >, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, double> > >::const_iterator[m[K' {aka '[01m[Kstd::_Rb_tree_const_iterator<std::pair<const unsigned int, double> >[m[K'} changed in GCC 7.1
+    __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
+In file included from [01m[K/usr/include/c++/8/vector:64[m[K,
+                 from [01m[K/usr/include/c++/8/functional:62[m[K,
+                 from [01m[K/usr/include/CGAL/number_type_basic.h:36[m[K,
+                 from [01m[K/usr/include/CGAL/basic.h:45[m[K,
+                 from [01m[K/usr/include/CGAL/Cartesian/Cartesian_base.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Simple_cartesian.h:29[m[K,
+                 from [01m[K/usr/include/CGAL/Exact_predicates_exact_constructions_kernel.h:29[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_geometry/include/polygon_coverage_geometry/cgal_definitions.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/include/polygon_coverage_planners/graphs/sweep_plan_graph.h:23[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/src/graphs/sweep_plan_graph.cc:20[m[K:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In member function '[01m[Kvirtual bool polygon_coverage_planning::sweep_plan_graph::SweepPlanGraph::create()[m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1348:71:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<polygon_coverage_planning::sweep_plan_graph::NodeProperty*, std::vector<polygon_coverage_planning::sweep_plan_graph::NodeProperty> >[m[K' changed in GCC 7.1
+  return _M_erase(__beg + (__first - __cbeg), __beg + (__last - __cbeg)[01;36m[K)[m[K;
+                                                                       [01;36m[K^[m[K
+[ 50%] [32mBuilding CXX object CMakeFiles/polygon_coverage_planners.dir/src/timing.cc.o[0m
+In file included from [01m[K/usr/include/c++/8/vector:69[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/include/polygon_coverage_planners/timing.h:26[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/polygon_coverage_planning/polygon_coverage_planners/src/timing.cc:25[m[K:
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {polygon_coverage_planning::timing::TimerMapValue}; _Tp = polygon_coverage_planning::timing::TimerMapValue; _Alloc = std::allocator<polygon_coverage_planning::timing::TimerMapValue>][m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<polygon_coverage_planning::timing::TimerMapValue>::iterator[m[K' {aka '[01m[K__gnu_cxx::__normal_iterator<polygon_coverage_planning::timing::TimerMapValue*, std::vector<polygon_coverage_planning::timing::TimerMapValue> >[m[K'} changed in GCC 7.1
+       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In function '[01m[Kstatic size_t polygon_coverage_planning::timing::Timing::GetHandle(const string&)[m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:109:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<polygon_coverage_planning::timing::TimerMapValue*, std::vector<polygon_coverage_planning::timing::TimerMapValue> >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), std::forward<_Args>(__args)...);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[ 62%] [32mBuilding CXX object CMakeFiles/polygon_coverage_planners.dir/src/planners/polygon_stripmap_planner.cc.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/polygon_coverage_planners.dir/src/planners/polygon_stripmap_planner_exact.cc.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/polygon_coverage_planners.dir/src/planners/polygon_stripmap_planner_exact_preprocessed.cc.o[0m
+[100%] [32m[1mLinking CXX shared library /home/pi/do_an_ws/devel/.private/polygon_coverage_planners/lib/libpolygon_coverage_planners.so[0m
+[100%] Built target polygon_coverage_planners

@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/i2c_device_ros/lib/pkgconfig/i2c_device_ros.pc

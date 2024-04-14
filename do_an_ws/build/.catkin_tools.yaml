@@ -1,0 +1,6 @@
+devel_space: /home/pi/do_an_ws/devel
+install: false
+install_space: /home/pi/do_an_ws/install
+profile: default
+source_space: /home/pi/do_an_ws/src
+workspace: /home/pi/do_an_ws

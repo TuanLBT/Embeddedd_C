@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/cmake/diagnostic_common_diagnosticsConfig.cmake

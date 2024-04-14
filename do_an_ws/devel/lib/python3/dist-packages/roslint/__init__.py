@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/roslint/lib/python3/dist-packages/roslint/__init__.py

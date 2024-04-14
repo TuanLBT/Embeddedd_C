@@ -1,0 +1,5 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libinteractive_markers.so
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/interactive_markers/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/interactive_markers.pc
+Symlinking /home/pi/do_an_ws/devel/share/interactive_markers/cmake/interactive_markersConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/interactive_markers/cmake/interactive_markersConfig.cmake

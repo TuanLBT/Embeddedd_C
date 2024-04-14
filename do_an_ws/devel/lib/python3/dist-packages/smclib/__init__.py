@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/smclib/lib/python3/dist-packages/smclib/__init__.py

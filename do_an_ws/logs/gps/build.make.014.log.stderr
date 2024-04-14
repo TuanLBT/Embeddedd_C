@@ -1,0 +1,7 @@
+[01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:229:2:[m[K [01;31m[Kerror: [m[K'[01m[Kelse[m[K' without a previous '[01m[Kif[m[K'
+  [01;31m[Kelse[m[K // Use fake gps coordinate
+  [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/gps.dir/build.make:63: CMakeFiles/gps.dir/src/gps_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1085: CMakeFiles/gps.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

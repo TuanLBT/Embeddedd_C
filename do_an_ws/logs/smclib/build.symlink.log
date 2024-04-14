@@ -1,0 +1,4 @@
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/smclib/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/smclib.pc
+Symlinking /home/pi/do_an_ws/devel/share/smclib/cmake/smclibConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/smclib/cmake/smclibConfig-version.cmake

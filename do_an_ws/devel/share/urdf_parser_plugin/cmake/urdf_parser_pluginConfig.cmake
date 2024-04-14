@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/urdf_parser_plugin/share/urdf_parser_plugin/cmake/urdf_parser_pluginConfig.cmake

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/pi/do_an_ws/devel/.private/clear_costmap_recovery/setup.sh

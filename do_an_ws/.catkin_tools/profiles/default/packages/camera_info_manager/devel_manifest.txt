@@ -1,0 +1,7 @@
+image_common/camera_info_manager
+/home/pi/do_an_ws/devel/.private/camera_info_manager/cmake.lock /home/pi/do_an_ws/devel/./cmake.lock
+/home/pi/do_an_ws/devel/.private/camera_info_manager/lib/libcamera_info_manager.so /home/pi/do_an_ws/devel/lib/libcamera_info_manager.so
+/home/pi/do_an_ws/devel/.private/camera_info_manager/lib/pkgconfig/camera_info_manager.pc /home/pi/do_an_ws/devel/lib/pkgconfig/camera_info_manager.pc
+/home/pi/do_an_ws/devel/.private/camera_info_manager/lib/camera_info_manager/unit_test /home/pi/do_an_ws/devel/lib/camera_info_manager/unit_test
+/home/pi/do_an_ws/devel/.private/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig.cmake /home/pi/do_an_ws/devel/share/camera_info_manager/cmake/camera_info_managerConfig.cmake
+/home/pi/do_an_ws/devel/.private/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig-version.cmake /home/pi/do_an_ws/devel/share/camera_info_manager/cmake/camera_info_managerConfig-version.cmake

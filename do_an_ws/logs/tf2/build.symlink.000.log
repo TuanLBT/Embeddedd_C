@@ -1,0 +1,4 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libtf2.so
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/tf2.pc
+Symlinking /home/pi/do_an_ws/devel/share/tf2/cmake/tf2Config.cmake
+Symlinking /home/pi/do_an_ws/devel/share/tf2/cmake/tf2Config-version.cmake

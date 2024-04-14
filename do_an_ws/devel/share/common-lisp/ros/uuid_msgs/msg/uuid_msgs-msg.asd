@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/uuid_msgs/share/common-lisp/ros/uuid_msgs/msg/uuid_msgs-msg.asd

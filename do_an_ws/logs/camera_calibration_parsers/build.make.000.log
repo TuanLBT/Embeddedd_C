@@ -1,0 +1,88 @@
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target camera_calibration_parsers[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_ini.cpp.o[0m
+In file included from [01m[K/usr/include/c++/8/vector:69[m[K,
+                 from [01m[K/home/pi/do_an_ws/devel/.private/sensor_msgs/include/sensor_msgs/CameraInfo.h:10[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse_ini.h:39[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/image_common/camera_calibration_parsers/src/parse_ini.cpp:35[m[K:
+[01m[K/usr/include/c++/8/bits/vector.tcc:[m[K In member function '[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const double&}; _Tp = double; _Alloc = std::allocator<double>][m[K':
+[01m[K/usr/include/c++/8/bits/vector.tcc:413:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[Kstd::vector<double, std::allocator<double> >::iterator[m[K' {aka '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >[m[K'} changed in GCC 7.1
+       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/vector:64[m[K,
+                 from [01m[K/home/pi/do_an_ws/devel/.private/sensor_msgs/include/sensor_msgs/CameraInfo.h:10[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse_ini.h:39[m[K,
+                 from [01m[K/home/pi/do_an_ws/src/image_common/camera_calibration_parsers/src/parse_ini.cpp:35[m[K:
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In member function '[01m[Ktypename boost::spirit::classic::parser_result<boost::spirit::classic::kleene_star<S>, ScannerT>::type boost::spirit::classic::kleene_star<S>::parse(const ScannerT&) const [with ScannerT = boost::spirit::classic::scanner<boost::spirit::classic::file_iterator<char>, boost::spirit::classic::scanner_policies<boost::spirit::classic::skip_parser_iteration_policy<boost::spirit::classic::alternative<boost::spirit::classic::space_parser, boost::spirit::classic::confix_parser<boost::spirit::classic::chlit<char>, boost::spirit::classic::kleene_star<boost::spirit::classic::anychar_parser>, boost::spirit::classic::alternative<boost::spirit::classic::eol_parser, boost::spirit::classic::end_parser>, boost::spirit::classic::unary_parser_category, boost::spirit::classic::non_nested, boost::spirit::classic::is_lexeme> >, boost::spirit::classic::iteration_policy>, boost::spirit::classic::match_policy, boost::spirit::classic::action_policy> >; S = boost::spirit::classic::action<boost::spirit::classic::real_parser<double, boost::spirit::classic::real_parser_policies<double> >, boost::spirit::classic::ref_value_actor<std::vector<double, std::allocator<double> >, boost::spirit::classic::push_back_action> >][m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In member function '[01m[Ktypename boost::spirit::classic::parser_result<boost::spirit::classic::sequence<A, B>, ScannerT>::type boost::spirit::classic::sequence<A, B>::parse(const ScannerT&) const [with ScannerT = boost::spirit::classic::scanner<__gnu_cxx::__normal_iterator<const char*, std::__cxx11::basic_string<char> >, boost::spirit::classic::scanner_policies<boost::spirit::classic::skip_parser_iteration_policy<boost::spirit::classic::alternative<boost::spirit::classic::space_parser, boost::spirit::classic::confix_parser<boost::spirit::classic::chlit<char>, boost::spirit::classic::kleene_star<boost::spirit::classic::anychar_parser>, boost::spirit::classic::alternative<boost::spirit::classic::eol_parser, boost::spirit::classic::end_parser>, boost::spirit::classic::unary_parser_category, boost::spirit::classic::non_nested, boost::spirit::classic::is_lexeme> >, boost::spirit::classic::iteration_policy>, boost::spirit::classic::match_policy, boost::spirit::classic::action_policy> >; A = boost::spirit::classic::sequence<boost::spirit::classic::sequence<boost::spirit::classic::sequence<boost::spirit::classic::sequence<boost::spirit::classic::sequence<boost::spirit::classic::sequence<boost::spirit::classic::confix_parser<boost::spirit::classic::chlit<char>, boost::spirit::classic::action<boost::spirit::classic::kleene_star<boost::spirit::classic::anychar_parser>, boost::spirit::classic::ref_value_actor<std::__cxx11::basic_string<char>, boost::spirit::classic::assign_action> >, boost::spirit::classic::chlit<char>, boost::spirit::classic::action_parser_category, boost::spirit::classic::non_nested, boost::spirit::classic::non_lexeme>, boost::spirit::classic::strlit<const char*> >, boost::spirit::classic::fixed_loop<boost::spirit::classic::action<boost::spirit::classic::real_parser<double, boost::spirit::classic::real_parser_policies<double> >, camera_calibration_parsers::ArrayAssignActor<double> >, int> >, boost::spirit::classic::strlit<const char*> >, boost::spirit::classic::kleene_star<boost::spirit::classic::action<boost::spirit::classic::real_parser<double, boost::spirit::classic::real_parser_policies<double> >, boost::spirit::classic::ref_value_actor<std::vector<double, std::allocator<double> >, boost::spirit::classic::push_back_action> > > >, boost::spirit::classic::strlit<const char*> >, boost::spirit::classic::fixed_loop<boost::spirit::classic::action<boost::spirit::classic::real_parser<double, boost::spirit::classic::real_parser_policies<double> >, camera_calibration_parsers::ArrayAssignActor<double> >, int> >; B = boost::spirit::classic::strlit<const char*>][m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_vector.h:[m[K In member function '[01m[Ktypename boost::spirit::classic::parser_result<boost::spirit::classic::sequence<A, B>, ScannerT>::type boost::spirit::classic::sequence<A, B>::parse(const ScannerT&) const [with ScannerT = boost::spirit::classic::scanner<std::istream_iterator<char>, boost::spirit::classic::scanner_policies<boost::spirit::classic::skip_parser_iteration_policy<boost::spirit::classic::alternative<boost::spirit::classic::space_parser, boost::spirit::classic::confix_parser<boost::spirit::classic::chlit<char>, boost::spirit::classic::kleene_star<boost::spirit::classic::anychar_parser>, boost::spirit::classic::alternative<boost::spirit::classic::eol_parser, boost::spirit::classic::end_parser>, boost::spirit::classic::unary_parser_category, boost::spirit::classic::non_nested, boost::spirit::classic::is_lexeme> >, boost::spirit::classic::iteration_policy>, boost::spirit::classic::match_policy, boost::spirit::classic::action_policy> >; A = boost::spirit::classic::sequence<boost::spirit::classic::sequence<boost::spirit::classic::sequence<boost::spirit::classic::sequence<boost::spirit::classic::sequence<boost::spirit::classic::sequence<boost::spirit::classic::sequence<boost::spirit::classic::confix_parser<boost::spirit::classic::chlit<char>, boost::spirit::classic::action<boost::spirit::classic::kleene_star<boost::spirit::classic::anychar_parser>, boost::spirit::classic::ref_value_actor<std::__cxx11::basic_string<char>, boost::spirit::classic::assign_action> >, boost::spirit::classic::chlit<char>, boost::spirit::classic::action_parser_category, boost::spirit::classic::non_nested, boost::spirit::classic::non_lexeme>, boost::spirit::classic::strlit<const char*> >, boost::spirit::classic::fixed_loop<boost::spirit::classic::action<boost::spirit::classic::real_parser<double, boost::spirit::classic::real_parser_policies<double> >, camera_calibration_parsers::ArrayAssignActor<double> >, int> >, boost::spirit::classic::strlit<const char*> >, boost::spirit::classic::kleene_star<boost::spirit::classic::action<boost::spirit::classic::real_parser<double, boost::spirit::classic::real_parser_policies<double> >, boost::spirit::classic::ref_value_actor<std::vector<double, std::allocator<double> >, boost::spirit::classic::push_back_action> > > >, boost::spirit::classic::strlit<const char*> >, boost::spirit::classic::fixed_loop<boost::spirit::classic::action<boost::spirit::classic::real_parser<double, boost::spirit::classic::real_parser_policies<double> >, camera_calibration_parsers::ArrayAssignActor<double> >, int> >, boost::spirit::classic::strlit<const char*> >; B = boost::spirit::classic::fixed_loop<boost::spirit::classic::action<boost::spirit::classic::real_parser<double, boost::spirit::classic::real_parser_policies<double> >, camera_calibration_parsers::ArrayAssignActor<double> >, int>][m[K':
+[01m[K/usr/include/c++/8/bits/stl_vector.h:1085:4:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type '[01m[K__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >[m[K' changed in GCC 7.1
+    [01;36m[K_M_realloc_insert[m[K(end(), __x);
+    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[ 37%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/pi/do_an_ws/devel/.private/camera_calibration_parsers/lib/libcamera_calibration_parsers.so[0m
+[ 50%] Built target camera_calibration_parsers
+[35m[1mScanning dependencies of target convert[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/pi/do_an_ws/devel/.private/camera_calibration_parsers/lib/camera_calibration_parsers/convert[0m
+[ 75%] Built target convert
+[35m[1mScanning dependencies of target camera_calibration_parsers_wrapper[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers_wrapper.dir/src/parse_wrapper.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/pi/do_an_ws/devel/.private/camera_calibration_parsers/lib/python3/dist-packages/camera_calibration_parsers/camera_calibration_parsers_wrapper.so[0m
+[100%] Built target camera_calibration_parsers_wrapper

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libi2c_device_ros.so -o /home/pi/do_an_ws/devel/.private/i2c_device_ros/lib/libi2c_device_ros.so CMakeFiles/i2c_device_ros.dir/src/i2c_device.cpp.o 

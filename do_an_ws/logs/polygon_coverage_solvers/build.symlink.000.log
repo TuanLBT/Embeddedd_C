@@ -1,0 +1,7 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libpolygon_coverage_solvers.so
+Symlinking /home/pi/do_an_ws/devel/lib/libnative_helper.so
+Symlinking /home/pi/do_an_ws/devel/lib/GkMa.exe
+Symlinking /home/pi/do_an_ws/devel/lib/System.Native
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/polygon_coverage_solvers.pc
+Symlinking /home/pi/do_an_ws/devel/share/polygon_coverage_solvers/cmake/polygon_coverage_solversConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/polygon_coverage_solvers/cmake/polygon_coverage_solversConfig.cmake

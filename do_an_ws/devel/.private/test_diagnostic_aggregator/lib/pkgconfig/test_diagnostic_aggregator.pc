@@ -1,0 +1,8 @@
+prefix=/home/pi/do_an_ws/devel/.private/test_diagnostic_aggregator
+
+Name: test_diagnostic_aggregator
+Description: Description of test_diagnostic_aggregator
+Version: 1.11.0
+Cflags: -I/home/pi/do_an_ws/src/diagnostics/test_diagnostic_aggregator/include
+Libs: -L${prefix}/lib -ltest_diagnostic_aggregator
+Requires: diagnostic_aggregator diagnostic_msgs pluginlib roscpp rospy

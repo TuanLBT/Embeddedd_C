@@ -1,0 +1,4 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libi2c_device_ros.so
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/i2c_device_ros.pc
+Symlinking /home/pi/do_an_ws/devel/share/i2c_device_ros/cmake/i2c_device_rosConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/i2c_device_ros/cmake/i2c_device_rosConfig.cmake

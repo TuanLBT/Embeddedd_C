@@ -1,0 +1,8 @@
+prefix=/home/pi/do_an_ws/install
+
+Name: polygon_coverage_ros
+Description: Description of polygon_coverage_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

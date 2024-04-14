@@ -1,0 +1,6 @@
+Symlinking /home/pi/do_an_ws/devel/lib/rqt_robot_steering/rqt_robot_steering
+Symlinking /home/pi/do_an_ws/devel/lib/rqt_robot_steering/cmake.lock
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/rqt_robot_steering/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/rqt_robot_steering.pc
+Symlinking /home/pi/do_an_ws/devel/share/rqt_robot_steering/cmake/rqt_robot_steeringConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/rqt_robot_steering/cmake/rqt_robot_steeringConfig-version.cmake

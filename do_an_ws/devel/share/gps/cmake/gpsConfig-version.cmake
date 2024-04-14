@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/gps/share/gps/cmake/gpsConfig-version.cmake

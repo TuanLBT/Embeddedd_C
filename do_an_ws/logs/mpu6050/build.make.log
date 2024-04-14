@@ -1,0 +1,132 @@
+[35m[1mScanning dependencies of target _mpu6050_generate_messages_check_deps_ResetIMU[0m
+[  0%] Built target _mpu6050_generate_messages_check_deps_ResetIMU
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target imu_msgs_generate_messages_py[0m
+[  0%] Built target imu_msgs_generate_messages_py
+[35m[1mScanning dependencies of target imu_msgs_generate_messages_nodejs[0m
+[  0%] Built target imu_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target imu_msgs_generate_messages_lisp[0m
+[  0%] Built target imu_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target imu_msgs_generate_messages_cpp[0m
+[  0%] Built target imu_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target imu_msgs_generate_messages_eus[0m
+[  0%] Built target imu_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[  0%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[  0%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  0%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target mpu6050_generate_messages_py[0m
+[ 11%] [34m[1mGenerating Python code from SRV mpu6050/ResetIMU[0m
+[ 22%] [34m[1mGenerating Python srv __init__.py for mpu6050[0m
+[ 22%] Built target mpu6050_generate_messages_py
+[35m[1mScanning dependencies of target mpu6050_generate_messages_nodejs[0m
+[ 33%] [34m[1mGenerating Javascript code from mpu6050/ResetIMU.srv[0m
+[ 33%] Built target mpu6050_generate_messages_nodejs
+[35m[1mScanning dependencies of target mpu6050_generate_messages_lisp[0m
+[ 44%] [34m[1mGenerating Lisp code from mpu6050/ResetIMU.srv[0m
+[ 44%] Built target mpu6050_generate_messages_lisp
+[35m[1mScanning dependencies of target mpu6050_generate_messages_cpp[0m
+[ 55%] [34m[1mGenerating C++ code from mpu6050/ResetIMU.srv[0m
+[ 55%] Built target mpu6050_generate_messages_cpp
+[35m[1mScanning dependencies of target mpu6050_generate_messages_eus[0m
+[ 66%] [34m[1mGenerating EusLisp code from mpu6050/ResetIMU.srv[0m
+[ 77%] [34m[1mGenerating EusLisp manifest code for mpu6050[0m
+[ 77%] Built target mpu6050_generate_messages_eus
+[35m[1mScanning dependencies of target mpu6050_generate_messages[0m
+[ 77%] Built target mpu6050_generate_messages
+[35m[1mScanning dependencies of target mpu6050_node[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/mpu6050_node.dir/src/mpu6050.cpp.o[0m
+[01m[K/home/pi/do_an_ws/src/pigeon_imu_driver/mpu6050/src/mpu6050.cpp:[m[K In member function '[01m[Kvoid Mpu6050::InitVariable()[m[K':
+[01m[K/home/pi/do_an_ws/src/pigeon_imu_driver/mpu6050/src/mpu6050.cpp:37:22:[m[K [01;35m[Kwarning: [m[Kiteration 3 invokes undefined behavior [[01;35m[K-Waggressive-loop-optimizations[m[K]
+     [01;35m[Kacceleration_[i] = 0.0[m[K;
+     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/pi/do_an_ws/src/pigeon_imu_driver/mpu6050/src/mpu6050.cpp:35:17:[m[K [01;36m[Knote: [m[Kwithin this loop
+   for (int i=0;[01;36m[Ki<=3[m[K;i++)
+                [01;36m[K~^~~[m[K
+[100%] [32m[1mLinking CXX executable /home/pi/do_an_ws/devel/.private/mpu6050/lib/mpu6050/mpu6050_node[0m
+[100%] Built target mpu6050_node

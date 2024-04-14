@@ -1,0 +1,6 @@
+bond_core/bondcpp
+/home/pi/do_an_ws/devel/.private/bondcpp/cmake.lock /home/pi/do_an_ws/devel/./cmake.lock
+/home/pi/do_an_ws/devel/.private/bondcpp/lib/libbondcpp.so /home/pi/do_an_ws/devel/lib/libbondcpp.so
+/home/pi/do_an_ws/devel/.private/bondcpp/lib/pkgconfig/bondcpp.pc /home/pi/do_an_ws/devel/lib/pkgconfig/bondcpp.pc
+/home/pi/do_an_ws/devel/.private/bondcpp/share/bondcpp/cmake/bondcppConfig-version.cmake /home/pi/do_an_ws/devel/share/bondcpp/cmake/bondcppConfig-version.cmake
+/home/pi/do_an_ws/devel/.private/bondcpp/share/bondcpp/cmake/bondcppConfig.cmake /home/pi/do_an_ws/devel/share/bondcpp/cmake/bondcppConfig.cmake

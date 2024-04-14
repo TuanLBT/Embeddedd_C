@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/qt_gui/lib/pkgconfig/qt_gui.pc

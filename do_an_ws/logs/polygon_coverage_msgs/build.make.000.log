@@ -1,0 +1,78 @@
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _polygon_coverage_msgs_generate_messages_check_deps_PlannerService[0m
+[  0%] Built target _polygon_coverage_msgs_generate_messages_check_deps_PlannerService
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _polygon_coverage_msgs_generate_messages_check_deps_PolygonWithHolesStamped[0m
+[  0%] Built target _polygon_coverage_msgs_generate_messages_check_deps_PolygonWithHolesStamped
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_cpp[0m
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _polygon_coverage_msgs_generate_messages_check_deps_PolygonWithHoles[0m
+[  0%] Built target _polygon_coverage_msgs_generate_messages_check_deps_PolygonWithHoles
+[35m[1mScanning dependencies of target _polygon_coverage_msgs_generate_messages_check_deps_PolygonService[0m
+[  0%] Built target _polygon_coverage_msgs_generate_messages_check_deps_PolygonService
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_py[0m
+[  0%] Built target trajectory_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_eus[0m
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_nodejs[0m
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_lisp[0m
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target polygon_coverage_msgs_generate_messages_cpp[0m
+[  3%] [34m[1mGenerating C++ code from polygon_coverage_msgs/PolygonWithHoles.msg[0m
+[  7%] [34m[1mGenerating C++ code from polygon_coverage_msgs/PolygonWithHolesStamped.msg[0m
+[ 11%] [34m[1mGenerating C++ code from polygon_coverage_msgs/PlannerService.srv[0m
+[ 15%] [34m[1mGenerating C++ code from polygon_coverage_msgs/PolygonService.srv[0m
+[ 15%] Built target polygon_coverage_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target polygon_coverage_msgs_generate_messages_py[0m
+[ 19%] [34m[1mGenerating Python from MSG polygon_coverage_msgs/PolygonWithHoles[0m
+[ 23%] [34m[1mGenerating Python from MSG polygon_coverage_msgs/PolygonWithHolesStamped[0m
+[ 26%] [34m[1mGenerating Python code from SRV polygon_coverage_msgs/PlannerService[0m
+[ 30%] [34m[1mGenerating Python code from SRV polygon_coverage_msgs/PolygonService[0m
+[ 34%] [34m[1mGenerating Python msg __init__.py for polygon_coverage_msgs[0m
+[ 38%] [34m[1mGenerating Python srv __init__.py for polygon_coverage_msgs[0m
+[ 38%] Built target polygon_coverage_msgs_generate_messages_py
+[35m[1mScanning dependencies of target polygon_coverage_msgs_generate_messages_eus[0m
+[ 42%] [34m[1mGenerating EusLisp code from polygon_coverage_msgs/PolygonWithHoles.msg[0m
+[ 46%] [34m[1mGenerating EusLisp code from polygon_coverage_msgs/PolygonWithHolesStamped.msg[0m
+[ 50%] [34m[1mGenerating EusLisp code from polygon_coverage_msgs/PlannerService.srv[0m
+[ 53%] [34m[1mGenerating EusLisp code from polygon_coverage_msgs/PolygonService.srv[0m
+[ 57%] [34m[1mGenerating EusLisp manifest code for polygon_coverage_msgs[0m
+[ 57%] Built target polygon_coverage_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target polygon_coverage_msgs_generate_messages_nodejs[0m
+[ 61%] [34m[1mGenerating Javascript code from polygon_coverage_msgs/PolygonWithHoles.msg[0m
+[ 65%] [34m[1mGenerating Javascript code from polygon_coverage_msgs/PolygonWithHolesStamped.msg[0m
+[ 69%] [34m[1mGenerating Javascript code from polygon_coverage_msgs/PlannerService.srv[0m
+[ 73%] [34m[1mGenerating Javascript code from polygon_coverage_msgs/PolygonService.srv[0m
+[ 73%] Built target polygon_coverage_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target polygon_coverage_msgs_generate_messages_lisp[0m
+[ 76%] [34m[1mGenerating Lisp code from polygon_coverage_msgs/PolygonWithHoles.msg[0m
+[ 80%] [34m[1mGenerating Lisp code from polygon_coverage_msgs/PolygonWithHolesStamped.msg[0m
+[ 84%] [34m[1mGenerating Lisp code from polygon_coverage_msgs/PlannerService.srv[0m
+[ 88%] [34m[1mGenerating Lisp code from polygon_coverage_msgs/PolygonService.srv[0m
+[ 88%] Built target polygon_coverage_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target polygon_coverage_msgs[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/polygon_coverage_msgs.dir/src/msg_from_xml_rpc.cc.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/polygon_coverage_msgs.dir/src/conversion.cc.o[0m
+[100%] [32m[1mLinking CXX shared library /home/pi/do_an_ws/devel/.private/polygon_coverage_msgs/lib/libpolygon_coverage_msgs.so[0m
+[100%] Built target polygon_coverage_msgs
+[35m[1mScanning dependencies of target polygon_coverage_msgs_generate_messages[0m
+[100%] Built target polygon_coverage_msgs_generate_messages

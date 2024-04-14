@@ -1,0 +1,1 @@
+/home/pi/do_an_ws/devel/.private/rosserial_msgs/share/roseus/ros/rosserial_msgs/msg/Log.l

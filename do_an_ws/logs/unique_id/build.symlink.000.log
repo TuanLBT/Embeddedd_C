@@ -1,0 +1,4 @@
+Symlinking /home/pi/do_an_ws/devel/lib/python3/dist-packages/unique_id/__init__.py
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/unique_id.pc
+Symlinking /home/pi/do_an_ws/devel/share/unique_id/cmake/unique_idConfig.cmake
+Symlinking /home/pi/do_an_ws/devel/share/unique_id/cmake/unique_idConfig-version.cmake

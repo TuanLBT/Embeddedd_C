@@ -1,0 +1,4 @@
+Symlinking /home/pi/do_an_ws/devel/lib/libkdl_conversions.so
+Symlinking /home/pi/do_an_ws/devel/lib/pkgconfig/kdl_conversions.pc
+Symlinking /home/pi/do_an_ws/devel/share/kdl_conversions/cmake/kdl_conversionsConfig-version.cmake
+Symlinking /home/pi/do_an_ws/devel/share/kdl_conversions/cmake/kdl_conversionsConfig.cmake

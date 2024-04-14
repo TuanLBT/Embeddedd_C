@@ -1,0 +1,10 @@
+[01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:242:1:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K}[m[K' at end of input
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+[01m[K/home/pi/do_an_ws/src/gps/src/gps_node.cpp:116:1:[m[K [01;36m[Knote: [m[Kto match this '[01m[K{[m[K'
+ [01;36m[K{[m[K
+ [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/gps.dir/build.make:63: CMakeFiles/gps.dir/src/gps_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1085: CMakeFiles/gps.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
